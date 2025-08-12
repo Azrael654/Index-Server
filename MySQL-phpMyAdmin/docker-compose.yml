@@ -1,0 +1,31 @@
+version: '3.8'
+
+services:
+  db:
+    image: mysql:latest
+    container_name: db
+    environment:
+      MYSQL_ROOT_PASSWORD: uud1945  # Replace with a strong password
+      MYSQL_DATABASE: indexdb      # Optional: Define a default database
+      MYSQL_USER: azra            # Optional: Define a default user
+      MYSQL_PASSWORD: uud1945         # Optional: Define a default user password
+    ports:
+      - "3306:3306" # Expose MySQL port to the host
+    volumes:
+      - db_data:/var/lib/mysql # Persist database data
+
+  phpmyadmin:
+    image: phpmyadmin/phpmyadmin
+    container_name: pma
+    links:
+      - db:db # Link phpMyAdmin to the MySQL container
+    environment:
+      PMA_HOST: db # Hostname for phpMyAdmin to connect to (service name of the db container)
+      PMA_PORT: 3306
+      PMA_ARBITRARY: 1 # Allow connecting to arbitrary servers (useful for connecting to 'db')
+    restart: always
+    ports:
+      - "8080:80" # Expose phpMyAdmin on port 8080 of the host
+
+volumes:
+  db_data: # Define a named volume for persistent data
