@@ -1,0 +1,574 @@
+[2025-08-12 20:39:00,830] [DEBUG] [celery.utils.functional] 
+def xstarmap(task, it):
+    return 1
+
+[2025-08-12 20:39:00,832] [DEBUG] [celery.utils.functional] 
+def check_scheduled_workflows():
+    return 1
+
+[2025-08-12 20:39:00,833] [DEBUG] [celery.utils.functional] 
+def update_document_content_maybe_archive_file(document_id):
+    return 1
+
+[2025-08-12 20:39:00,834] [DEBUG] [celery.utils.functional] 
+def sanity_check(*, scheduled="0", raise_on_error="1"):
+    return 1
+
+[2025-08-12 20:39:00,834] [DEBUG] [celery.utils.functional] 
+def process_mail_accounts(account_ids=0):
+    return 1
+
+[2025-08-12 20:39:00,835] [DEBUG] [celery.utils.functional] 
+def chunks(task, it, n):
+    return 1
+
+[2025-08-12 20:39:00,836] [DEBUG] [celery.utils.functional] 
+def train_classifier(*, scheduled="0"):
+    return 1
+
+[2025-08-12 20:39:00,836] [DEBUG] [celery.utils.functional] 
+def delete(doc_ids):
+    return 1
+
+[2025-08-12 20:39:00,837] [DEBUG] [celery.utils.functional] 
+def apply_mail_action(result, rule_id, message_uid, message_subject, message_date):
+    return 1
+
+[2025-08-12 20:39:00,838] [DEBUG] [celery.utils.functional] 
+def group(self, tasks, result, group_id, partial_args, add_to_parent=0):
+    return 1
+
+[2025-08-12 20:39:00,838] [DEBUG] [celery.utils.functional] 
+def backend_cleanup():
+    return 1
+
+[2025-08-12 20:39:00,839] [DEBUG] [celery.utils.functional] 
+def index_optimize():
+    return 1
+
+[2025-08-12 20:39:00,840] [DEBUG] [celery.utils.functional] 
+def chain(*args, **kwargs):
+    return 1
+
+[2025-08-12 20:39:00,840] [DEBUG] [celery.utils.functional] 
+def consume_file(self, input_doc, overrides=0):
+    return 1
+
+[2025-08-12 20:39:00,841] [DEBUG] [celery.utils.functional] 
+def accumulate(self, *args, **kwargs):
+    return 1
+
+[2025-08-12 20:39:00,842] [DEBUG] [celery.utils.functional] 
+def empty_trash(doc_ids=0):
+    return 1
+
+[2025-08-12 20:39:00,842] [DEBUG] [celery.utils.functional] 
+def bulk_update_documents(document_ids):
+    return 1
+
+[2025-08-12 20:39:00,843] [DEBUG] [celery.utils.functional] 
+def chord(self, header, body, partial_args=0, interval=1, countdown=2, max_retries=3, eager=4, **kwargs):
+    return 1
+
+[2025-08-12 20:39:00,844] [DEBUG] [celery.utils.functional] 
+def unlock_chord(self, group_id, callback, interval=0, max_retries=1, result=2, Result=3, GroupResult=4, result_from_tuple=5, **kwargs):
+    return 1
+
+[2025-08-12 20:39:00,844] [DEBUG] [celery.utils.functional] 
+def error_callback(request, exc, tb, rule_id, message_uid, message_subject, message_date):
+    return 1
+
+[2025-08-12 20:39:00,845] [DEBUG] [celery.utils.functional] 
+def send_webhook(url, data, headers, files, *, as_json="0"):
+    return 1
+
+[2025-08-12 20:39:00,846] [DEBUG] [celery.utils.functional] 
+def xmap(task, it):
+    return 1
+
+[2025-08-12 20:39:00,982] [DEBUG] [celery.utils.functional] 
+def send_webhook(url, data, headers, files, *, as_json="0"):
+    return 1
+
+[2025-08-12 20:39:00,983] [DEBUG] [celery.utils.functional] 
+def empty_trash(doc_ids=0):
+    return 1
+
+[2025-08-12 20:39:00,984] [DEBUG] [celery.utils.functional] 
+def xstarmap(task, it):
+    return 1
+
+[2025-08-12 20:39:00,984] [DEBUG] [celery.utils.functional] 
+def bulk_update_documents(document_ids):
+    return 1
+
+[2025-08-12 20:39:00,985] [DEBUG] [celery.utils.functional] 
+def chunks(task, it, n):
+    return 1
+
+[2025-08-12 20:39:00,985] [DEBUG] [celery.utils.functional] 
+def process_mail_accounts(account_ids=0):
+    return 1
+
+[2025-08-12 20:39:00,986] [DEBUG] [celery.utils.functional] 
+def group(self, tasks, result, group_id, partial_args, add_to_parent=0):
+    return 1
+
+[2025-08-12 20:39:00,987] [DEBUG] [celery.utils.functional] 
+def apply_mail_action(result, rule_id, message_uid, message_subject, message_date):
+    return 1
+
+[2025-08-12 20:39:00,987] [DEBUG] [celery.utils.functional] 
+def backend_cleanup():
+    return 1
+
+[2025-08-12 20:39:00,988] [DEBUG] [celery.utils.functional] 
+def check_scheduled_workflows():
+    return 1
+
+[2025-08-12 20:39:00,988] [DEBUG] [celery.utils.functional] 
+def chain(*args, **kwargs):
+    return 1
+
+[2025-08-12 20:39:00,989] [DEBUG] [celery.utils.functional] 
+def update_document_content_maybe_archive_file(document_id):
+    return 1
+
+[2025-08-12 20:39:00,989] [DEBUG] [celery.utils.functional] 
+def accumulate(self, *args, **kwargs):
+    return 1
+
+[2025-08-12 20:39:00,990] [DEBUG] [celery.utils.functional] 
+def sanity_check(*, scheduled="0", raise_on_error="1"):
+    return 1
+
+[2025-08-12 20:39:00,991] [DEBUG] [celery.utils.functional] 
+def train_classifier(*, scheduled="0"):
+    return 1
+
+[2025-08-12 20:39:00,991] [DEBUG] [celery.utils.functional] 
+def chord(self, header, body, partial_args=0, interval=1, countdown=2, max_retries=3, eager=4, **kwargs):
+    return 1
+
+[2025-08-12 20:39:00,992] [DEBUG] [celery.utils.functional] 
+def unlock_chord(self, group_id, callback, interval=0, max_retries=1, result=2, Result=3, GroupResult=4, result_from_tuple=5, **kwargs):
+    return 1
+
+[2025-08-12 20:39:00,994] [DEBUG] [celery.utils.functional] 
+def delete(doc_ids):
+    return 1
+
+[2025-08-12 20:39:00,995] [DEBUG] [celery.utils.functional] 
+def error_callback(request, exc, tb, rule_id, message_uid, message_subject, message_date):
+    return 1
+
+[2025-08-12 20:39:00,996] [DEBUG] [celery.utils.functional] 
+def index_optimize():
+    return 1
+
+[2025-08-12 20:39:00,998] [DEBUG] [celery.bootsteps] | Worker: Preparing bootsteps.
+[2025-08-12 20:39:00,998] [DEBUG] [celery.utils.functional] 
+def xmap(task, it):
+    return 1
+
+[2025-08-12 20:39:01,001] [DEBUG] [celery.utils.functional] 
+def consume_file(self, input_doc, overrides=0):
+    return 1
+
+[2025-08-12 20:39:01,010] [DEBUG] [celery.bootsteps] | Worker: Building graph...
+[2025-08-12 20:39:01,010] [DEBUG] [celery.bootsteps] | Worker: New boot order: {Timer, Hub, Pool, Autoscaler, StateDB, Beat, Consumer}
+[2025-08-12 20:39:01,059] [DEBUG] [celery.bootsteps] | Consumer: Preparing bootsteps.
+[2025-08-12 20:39:01,061] [DEBUG] [celery.bootsteps] | Consumer: Building graph...
+[2025-08-12 20:39:33,242] [DEBUG] [celery.utils.functional] 
+def error_callback(request, exc, tb, rule_id, message_uid, message_subject, message_date):
+    return 1
+
+[2025-08-12 20:39:33,243] [DEBUG] [celery.utils.functional] 
+def index_optimize():
+    return 1
+
+[2025-08-12 20:39:33,244] [DEBUG] [celery.utils.functional] 
+def xstarmap(task, it):
+    return 1
+
+[2025-08-12 20:39:33,244] [DEBUG] [celery.utils.functional] 
+def consume_file(self, input_doc, overrides=0):
+    return 1
+
+[2025-08-12 20:39:33,245] [DEBUG] [celery.utils.functional] 
+def send_webhook(url, data, headers, files, *, as_json="0"):
+    return 1
+
+[2025-08-12 20:39:33,246] [DEBUG] [celery.utils.functional] 
+def empty_trash(doc_ids=0):
+    return 1
+
+[2025-08-12 20:39:33,247] [DEBUG] [celery.utils.functional] 
+def chunks(task, it, n):
+    return 1
+
+[2025-08-12 20:39:33,247] [DEBUG] [celery.utils.functional] 
+def bulk_update_documents(document_ids):
+    return 1
+
+[2025-08-12 20:39:33,248] [DEBUG] [celery.utils.functional] 
+def group(self, tasks, result, group_id, partial_args, add_to_parent=0):
+    return 1
+
+[2025-08-12 20:39:33,249] [DEBUG] [celery.utils.functional] 
+def backend_cleanup():
+    return 1
+
+[2025-08-12 20:39:33,249] [DEBUG] [celery.utils.functional] 
+def process_mail_accounts(account_ids=0):
+    return 1
+
+[2025-08-12 20:39:33,250] [DEBUG] [celery.utils.functional] 
+def chain(*args, **kwargs):
+    return 1
+
+[2025-08-12 20:39:33,251] [DEBUG] [celery.utils.functional] 
+def apply_mail_action(result, rule_id, message_uid, message_subject, message_date):
+    return 1
+
+[2025-08-12 20:39:33,251] [DEBUG] [celery.utils.functional] 
+def accumulate(self, *args, **kwargs):
+    return 1
+
+[2025-08-12 20:39:33,252] [DEBUG] [celery.utils.functional] 
+def check_scheduled_workflows():
+    return 1
+
+[2025-08-12 20:39:33,253] [DEBUG] [celery.utils.functional] 
+def chord(self, header, body, partial_args=0, interval=1, countdown=2, max_retries=3, eager=4, **kwargs):
+    return 1
+
+[2025-08-12 20:39:33,253] [DEBUG] [celery.utils.functional] 
+def update_document_content_maybe_archive_file(document_id):
+    return 1
+
+[2025-08-12 20:39:33,254] [DEBUG] [celery.utils.functional] 
+def unlock_chord(self, group_id, callback, interval=0, max_retries=1, result=2, Result=3, GroupResult=4, result_from_tuple=5, **kwargs):
+    return 1
+
+[2025-08-12 20:39:33,255] [DEBUG] [celery.utils.functional] 
+def sanity_check(*, scheduled="0", raise_on_error="1"):
+    return 1
+
+[2025-08-12 20:39:33,256] [DEBUG] [celery.utils.functional] 
+def train_classifier(*, scheduled="0"):
+    return 1
+
+[2025-08-12 20:39:33,256] [DEBUG] [celery.utils.functional] 
+def xmap(task, it):
+    return 1
+
+[2025-08-12 20:39:33,257] [DEBUG] [celery.utils.functional] 
+def delete(doc_ids):
+    return 1
+
+[2025-08-12 20:39:33,331] [DEBUG] [celery.beat] Setting default socket timeout to 30
+[2025-08-12 20:39:33,331] [INFO] [celery.beat] beat: Starting...
+[2025-08-12 20:39:33,401] [DEBUG] [celery.beat] Current schedule:
+<ScheduleEntry: Check all e-mail accounts paperless_mail.tasks.process_mail_accounts() <crontab: */10 * * * * (m/h/dM/MY/d)>
+<ScheduleEntry: Perform sanity check documents.tasks.sanity_check() <crontab: 30 0 * * sun (m/h/dM/MY/d)>
+<ScheduleEntry: Train the classifier documents.tasks.train_classifier() <crontab: 5 */1 * * * (m/h/dM/MY/d)>
+<ScheduleEntry: Check and run scheduled workflows documents.tasks.check_scheduled_workflows() <crontab: 5 */1 * * * (m/h/dM/MY/d)>
+<ScheduleEntry: Optimize the index documents.tasks.index_optimize() <crontab: 0 0 * * * (m/h/dM/MY/d)>
+<ScheduleEntry: Empty trash documents.tasks.empty_trash() <crontab: 0 1 * * * (m/h/dM/MY/d)>
+<ScheduleEntry: celery.backend_cleanup celery.backend_cleanup() <crontab: 0 4 * * * (m/h/dM/MY/d)>
+[2025-08-12 20:39:33,401] [DEBUG] [celery.beat] beat: Ticking with max interval->5.00 minutes
+[2025-08-12 20:39:33,405] [DEBUG] [celery.beat] beat: Waking up in 26.58 seconds.
+[2025-08-12 20:39:33,548] [DEBUG] [celery.utils.functional] 
+def empty_trash(doc_ids=0):
+    return 1
+
+[2025-08-12 20:39:33,549] [DEBUG] [celery.utils.functional] 
+def xstarmap(task, it):
+    return 1
+
+[2025-08-12 20:39:33,549] [DEBUG] [celery.utils.functional] 
+def bulk_update_documents(document_ids):
+    return 1
+
+[2025-08-12 20:39:33,550] [DEBUG] [celery.utils.functional] 
+def chunks(task, it, n):
+    return 1
+
+[2025-08-12 20:39:33,550] [DEBUG] [celery.utils.functional] 
+def process_mail_accounts(account_ids=0):
+    return 1
+
+[2025-08-12 20:39:33,551] [DEBUG] [celery.utils.functional] 
+def apply_mail_action(result, rule_id, message_uid, message_subject, message_date):
+    return 1
+
+[2025-08-12 20:39:33,551] [DEBUG] [celery.utils.functional] 
+def group(self, tasks, result, group_id, partial_args, add_to_parent=0):
+    return 1
+
+[2025-08-12 20:39:33,551] [DEBUG] [celery.utils.functional] 
+def backend_cleanup():
+    return 1
+
+[2025-08-12 20:39:33,552] [DEBUG] [celery.utils.functional] 
+def check_scheduled_workflows():
+    return 1
+
+[2025-08-12 20:39:33,552] [DEBUG] [celery.utils.functional] 
+def chain(*args, **kwargs):
+    return 1
+
+[2025-08-12 20:39:33,553] [DEBUG] [celery.utils.functional] 
+def update_document_content_maybe_archive_file(document_id):
+    return 1
+
+[2025-08-12 20:39:33,553] [DEBUG] [celery.utils.functional] 
+def accumulate(self, *args, **kwargs):
+    return 1
+
+[2025-08-12 20:39:33,553] [DEBUG] [celery.utils.functional] 
+def sanity_check(*, scheduled="0", raise_on_error="1"):
+    return 1
+
+[2025-08-12 20:39:33,554] [DEBUG] [celery.utils.functional] 
+def train_classifier(*, scheduled="0"):
+    return 1
+
+[2025-08-12 20:39:33,554] [DEBUG] [celery.utils.functional] 
+def chord(self, header, body, partial_args=0, interval=1, countdown=2, max_retries=3, eager=4, **kwargs):
+    return 1
+
+[2025-08-12 20:39:33,555] [DEBUG] [celery.utils.functional] 
+def delete(doc_ids):
+    return 1
+
+[2025-08-12 20:39:33,555] [DEBUG] [celery.utils.functional] 
+def unlock_chord(self, group_id, callback, interval=0, max_retries=1, result=2, Result=3, GroupResult=4, result_from_tuple=5, **kwargs):
+    return 1
+
+[2025-08-12 20:39:33,556] [DEBUG] [celery.utils.functional] 
+def error_callback(request, exc, tb, rule_id, message_uid, message_subject, message_date):
+    return 1
+
+[2025-08-12 20:39:33,556] [DEBUG] [celery.utils.functional] 
+def index_optimize():
+    return 1
+
+[2025-08-12 20:39:33,556] [DEBUG] [celery.utils.functional] 
+def xmap(task, it):
+    return 1
+
+[2025-08-12 20:39:33,557] [DEBUG] [celery.utils.functional] 
+def send_webhook(url, data, headers, files, *, as_json="0"):
+    return 1
+
+[2025-08-12 20:39:33,557] [DEBUG] [celery.utils.functional] 
+def consume_file(self, input_doc, overrides=0):
+    return 1
+
+[2025-08-12 20:39:33,614] [DEBUG] [celery.bootsteps] | Worker: Preparing bootsteps.
+[2025-08-12 20:39:33,619] [DEBUG] [celery.bootsteps] | Worker: Building graph...
+[2025-08-12 20:39:33,619] [DEBUG] [celery.bootsteps] | Worker: New boot order: {Timer, Hub, Pool, Autoscaler, Beat, StateDB, Consumer}
+[2025-08-12 20:39:33,633] [DEBUG] [celery.bootsteps] | Consumer: Preparing bootsteps.
+[2025-08-12 20:39:33,634] [DEBUG] [celery.bootsteps] | Consumer: Building graph...
+[2025-08-12 20:39:33,651] [DEBUG] [celery.bootsteps] | Consumer: New boot order: {Connection, Events, Mingle, Gossip, Tasks, Control, Agent, DelayedDelivery, Heart, event loop}
+[2025-08-12 20:39:33,666] [DEBUG] [celery.bootsteps] | Worker: Starting Hub
+[2025-08-12 20:39:33,666] [DEBUG] [celery.bootsteps] ^-- substep ok
+[2025-08-12 20:39:33,666] [DEBUG] [celery.bootsteps] | Worker: Starting Pool
+[2025-08-12 20:39:33,763] [DEBUG] [celery.bootsteps] ^-- substep ok
+[2025-08-12 20:39:33,763] [DEBUG] [celery.bootsteps] | Worker: Starting Consumer
+[2025-08-12 20:39:33,764] [DEBUG] [celery.bootsteps] | Consumer: Starting Connection
+[2025-08-12 20:39:33,775] [INFO] [celery.worker.consumer.connection] Connected to redis://broker:6379//
+[2025-08-12 20:39:33,775] [DEBUG] [celery.bootsteps] ^-- substep ok
+[2025-08-12 20:39:33,775] [DEBUG] [celery.bootsteps] | Consumer: Starting Events
+[2025-08-12 20:39:33,784] [DEBUG] [celery.bootsteps] ^-- substep ok
+[2025-08-12 20:39:33,784] [DEBUG] [celery.bootsteps] | Consumer: Starting Tasks
+[2025-08-12 20:39:33,810] [DEBUG] [celery.bootsteps] ^-- substep ok
+[2025-08-12 20:39:33,810] [DEBUG] [celery.bootsteps] | Consumer: Starting Control
+[2025-08-12 20:39:33,817] [DEBUG] [celery.bootsteps] ^-- substep ok
+[2025-08-12 20:39:33,817] [DEBUG] [celery.bootsteps] | Consumer: Starting Heart
+[2025-08-12 20:39:33,822] [DEBUG] [celery.bootsteps] ^-- substep ok
+[2025-08-12 20:39:33,822] [DEBUG] [celery.bootsteps] | Consumer: Starting event loop
+[2025-08-12 20:39:33,822] [DEBUG] [celery.bootsteps] | Worker: Hub.register Pool...
+[2025-08-12 20:39:33,823] [INFO] [celery.apps.worker] celery@0ef663c5f99f ready.
+[2025-08-12 20:39:33,825] [DEBUG] [kombu.common] basic.qos: prefetch_count->4
+[2025-08-12 20:39:59,990] [DEBUG] [celery.beat] beat: Synchronizing schedule...
+[2025-08-12 20:40:00,001] [INFO] [celery.beat] Scheduler: Sending due task Check all e-mail accounts (paperless_mail.tasks.process_mail_accounts)
+[2025-08-12 20:40:00,007] [DEBUG] [celery.beat] paperless_mail.tasks.process_mail_accounts sent. id->50a6de36-1173-4cdd-a70d-c29657080fc9
+[2025-08-12 20:40:00,008] [DEBUG] [celery.beat] beat: Waking up in 5.00 minutes.
+[2025-08-12 20:40:00,008] [INFO] [celery.worker.strategy] Task paperless_mail.tasks.process_mail_accounts[50a6de36-1173-4cdd-a70d-c29657080fc9] received
+[2025-08-12 20:40:00,009] [DEBUG] [celery.pool] TaskPool: Apply <function fast_trace_task at 0x7a1ff2b80cc0> (args:('paperless_mail.tasks.process_mail_accounts', '50a6de36-1173-4cdd-a70d-c29657080fc9', {'lang': 'py', 'task': 'paperless_mail.tasks.process_mail_accounts', 'id': '50a6de36-1173-4cdd-a70d-c29657080fc9', 'shadow': None, 'eta': None, 'expires': '2025-08-12T20:49:00.003495+07:00', 'group': None, 'group_index': None, 'retries': 0, 'timelimit': [None, None], 'root_id': '50a6de36-1173-4cdd-a70d-c29657080fc9', 'parent_id': None, 'argsrepr': '()', 'kwargsrepr': '{}', 'origin': 'gen186@0ef663c5f99f', 'ignore_result': False, 'replaced_task_nesting': 0, 'stamped_headers': None, 'stamps': {}, 'properties': {'correlation_id': '50a6de36-1173-4cdd-a70d-c29657080fc9', 'reply_to': '2d6db8ad-6038-3a40-ab85-56ff1d3b442f', 'delivery_mode': 2, 'expiration': '540000', 'delivery_info': {'exchange': '', 'routing_key': 'celery'}, 'priority': 0, 'body_encoding': 'base64', 'delivery_tag': '6a07723c-5a84-46bc-88aa-55849fecf456'}, 'reply_to': '2d6db8ad-6038-3a40-ab85-56ff1d3b442f', 'correlation_id':... kwargs:{})
+[2025-08-12 20:40:00,044] [INFO] [celery.app.trace] Task paperless_mail.tasks.process_mail_accounts[50a6de36-1173-4cdd-a70d-c29657080fc9] succeeded in 0.03348824500062619s: 'No new documents were added.'
+[2025-08-12 20:41:08,538] [DEBUG] [kombu.pidbox] pidbox received method ping() [reply_to:{'exchange': 'reply.celery.pidbox', 'routing_key': 'f0d2f1ce-934d-38f0-95e0-b7bc5d41f625'} ticket:e63f87c1-f6b5-49da-9290-01868db75aed]
+[2025-08-12 20:41:11,249] [DEBUG] [kombu.pidbox] pidbox received method ping() [reply_to:{'exchange': 'reply.celery.pidbox', 'routing_key': '8f7fafd3-d498-357d-adbc-18e47f0f150c'} ticket:a955c3f8-32ad-496e-8c39-ed48adde7a83]
+[2025-08-12 20:41:14,541] [DEBUG] [kombu.pidbox] pidbox received method ping() [reply_to:{'exchange': 'reply.celery.pidbox', 'routing_key': '7289933e-2564-3762-909c-2ccd5abbc644'} ticket:7652a229-6dc4-47d1-826d-e649d18e29ea]
+[2025-08-12 20:41:17,569] [DEBUG] [kombu.pidbox] pidbox received method ping() [reply_to:{'exchange': 'reply.celery.pidbox', 'routing_key': 'da5ab1bf-2e25-317b-b9a1-0bb9ce7b5fe2'} ticket:4921afe3-8516-4c63-8f3b-daa02bd5fab5]
+[2025-08-12 20:41:19,476] [DEBUG] [kombu.pidbox] pidbox received method ping() [reply_to:{'exchange': 'reply.celery.pidbox', 'routing_key': '22b12c0a-1413-31be-a736-581c82cc7562'} ticket:e657ac3c-4370-4624-a1b0-628f5a4a13f6]
+[2025-08-12 20:41:20,625] [DEBUG] [kombu.pidbox] pidbox received method ping() [reply_to:{'exchange': 'reply.celery.pidbox', 'routing_key': '15031eae-907c-373c-9d25-0e22642863c6'} ticket:cb2820cd-a565-4a79-9f67-f3e6caf9fd20]
+[2025-08-12 20:41:21,752] [DEBUG] [kombu.pidbox] pidbox received method ping() [reply_to:{'exchange': 'reply.celery.pidbox', 'routing_key': 'f27ae62e-76d9-3a62-aa35-dd4a26cc4f7e'} ticket:1f4eea2b-2ff1-4bea-8786-a65d255a2ae9]
+[2025-08-12 20:41:22,822] [DEBUG] [kombu.pidbox] pidbox received method ping() [reply_to:{'exchange': 'reply.celery.pidbox', 'routing_key': 'ddaec3fa-ed58-3cf1-943c-c8288410639f'} ticket:09953905-7663-47aa-ba39-7d603b4effc1]
+[2025-08-12 20:41:36,360] [DEBUG] [kombu.pidbox] pidbox received method ping() [reply_to:{'exchange': 'reply.celery.pidbox', 'routing_key': 'f6894973-c981-3e83-b1dd-316f59b0ff1e'} ticket:3b6ed8f3-ad48-432f-a50d-48f7272b04b1]
+[2025-08-12 20:41:48,450] [DEBUG] [kombu.pidbox] pidbox received method ping() [reply_to:{'exchange': 'reply.celery.pidbox', 'routing_key': 'e4787bf2-92ca-38e3-8e75-e600912c1011'} ticket:7c743d16-1408-4bf3-8c77-a632773f3aff]
+[2025-08-12 20:41:49,607] [DEBUG] [kombu.pidbox] pidbox received method ping() [reply_to:{'exchange': 'reply.celery.pidbox', 'routing_key': '09075468-9ff3-3085-97b5-3b1a96136e13'} ticket:96702601-844b-454f-8f8e-48b1f8592971]
+[2025-08-12 20:41:50,767] [DEBUG] [kombu.pidbox] pidbox received method ping() [reply_to:{'exchange': 'reply.celery.pidbox', 'routing_key': '15240ce2-4e8c-3f0d-84dc-4327bd2c9d9c'} ticket:d761e255-9ed8-4b73-9313-6038f55479bc]
+[2025-08-12 20:41:51,858] [DEBUG] [kombu.pidbox] pidbox received method ping() [reply_to:{'exchange': 'reply.celery.pidbox', 'routing_key': 'eaca2b91-9a3f-36c5-b35c-c60c28e55e40'} ticket:75addb74-88c0-4bf4-b275-f0f49ec6e436]
+[2025-08-12 20:41:53,315] [DEBUG] [kombu.pidbox] pidbox received method ping() [reply_to:{'exchange': 'reply.celery.pidbox', 'routing_key': 'bbf7994d-a618-3c43-8a4b-846b535821b7'} ticket:1c6670fe-6d75-434c-984c-d73750e7b8d8]
+[2025-08-12 20:41:54,427] [DEBUG] [kombu.pidbox] pidbox received method ping() [reply_to:{'exchange': 'reply.celery.pidbox', 'routing_key': 'eb9b6fa6-c40b-3e29-afeb-31ff1e817f4b'} ticket:f830690d-8331-4357-8714-ea8fbcd23f8b]
+[2025-08-12 20:41:55,541] [DEBUG] [kombu.pidbox] pidbox received method ping() [reply_to:{'exchange': 'reply.celery.pidbox', 'routing_key': '3036f799-d753-341c-86b7-89e2821dc485'} ticket:9da8eeb7-c489-4b54-8932-a07798efe386]
+[2025-08-12 20:41:56,708] [DEBUG] [kombu.pidbox] pidbox received method ping() [reply_to:{'exchange': 'reply.celery.pidbox', 'routing_key': 'bc135d49-f7cf-3b3c-a5c0-c2886703809d'} ticket:5e64a8a7-1ad2-441d-9e0f-ff8e9dea89da]
+[2025-08-12 20:43:50,196] [DEBUG] [celery.utils.functional] 
+def index_optimize():
+    return 1
+
+[2025-08-12 20:43:50,197] [DEBUG] [celery.utils.functional] 
+def chunks(task, it, n):
+    return 1
+
+[2025-08-12 20:43:50,197] [DEBUG] [celery.utils.functional] 
+def process_mail_accounts(account_ids=0):
+    return 1
+
+[2025-08-12 20:43:50,197] [DEBUG] [celery.utils.functional] 
+def consume_file(self, input_doc, overrides=0):
+    return 1
+
+[2025-08-12 20:43:50,198] [DEBUG] [celery.utils.functional] 
+def empty_trash(doc_ids=0):
+    return 1
+
+[2025-08-12 20:43:50,198] [DEBUG] [celery.utils.functional] 
+def apply_mail_action(result, rule_id, message_uid, message_subject, message_date):
+    return 1
+
+[2025-08-12 20:43:50,199] [DEBUG] [celery.utils.functional] 
+def group(self, tasks, result, group_id, partial_args, add_to_parent=0):
+    return 1
+
+[2025-08-12 20:43:50,199] [DEBUG] [celery.utils.functional] 
+def send_webhook(url, data, headers, files, *, as_json="0"):
+    return 1
+
+[2025-08-12 20:43:50,200] [DEBUG] [celery.utils.functional] 
+def bulk_update_documents(document_ids):
+    return 1
+
+[2025-08-12 20:43:50,200] [DEBUG] [celery.utils.functional] 
+def backend_cleanup():
+    return 1
+
+[2025-08-12 20:43:50,200] [DEBUG] [celery.utils.functional] 
+def chain(*args, **kwargs):
+    return 1
+
+[2025-08-12 20:43:50,201] [DEBUG] [celery.utils.functional] 
+def delete(doc_ids):
+    return 1
+
+[2025-08-12 20:43:50,201] [DEBUG] [celery.utils.functional] 
+def accumulate(self, *args, **kwargs):
+    return 1
+
+[2025-08-12 20:43:50,202] [DEBUG] [celery.utils.functional] 
+def chord(self, header, body, partial_args=0, interval=1, countdown=2, max_retries=3, eager=4, **kwargs):
+    return 1
+
+[2025-08-12 20:43:50,202] [DEBUG] [celery.utils.functional] 
+def unlock_chord(self, group_id, callback, interval=0, max_retries=1, result=2, Result=3, GroupResult=4, result_from_tuple=5, **kwargs):
+    return 1
+
+[2025-08-12 20:43:50,203] [DEBUG] [celery.utils.functional] 
+def check_scheduled_workflows():
+    return 1
+
+[2025-08-12 20:43:50,203] [DEBUG] [celery.utils.functional] 
+def error_callback(request, exc, tb, rule_id, message_uid, message_subject, message_date):
+    return 1
+
+[2025-08-12 20:43:50,203] [DEBUG] [celery.utils.functional] 
+def update_document_content_maybe_archive_file(document_id):
+    return 1
+
+[2025-08-12 20:43:50,204] [DEBUG] [celery.utils.functional] 
+def xmap(task, it):
+    return 1
+
+[2025-08-12 20:43:50,204] [DEBUG] [celery.utils.functional] 
+def sanity_check(*, scheduled="0", raise_on_error="1"):
+    return 1
+
+[2025-08-12 20:43:50,205] [DEBUG] [celery.utils.functional] 
+def train_classifier(*, scheduled="0"):
+    return 1
+
+[2025-08-12 20:43:50,205] [DEBUG] [celery.utils.functional] 
+def xstarmap(task, it):
+    return 1
+
+[2025-08-12 20:43:50,259] [INFO] [celery.worker.strategy] Task documents.tasks.consume_file[96e3490e-3ac7-4240-9ea2-a50cf050576c] received
+[2025-08-12 20:43:50,260] [DEBUG] [celery.pool] TaskPool: Apply <function fast_trace_task at 0x7a1ff2b80cc0> (args:('documents.tasks.consume_file', '96e3490e-3ac7-4240-9ea2-a50cf050576c', {'lang': 'py', 'task': 'documents.tasks.consume_file', 'id': '96e3490e-3ac7-4240-9ea2-a50cf050576c', 'shadow': None, 'eta': None, 'expires': None, 'group': None, 'group_index': None, 'retries': 0, 'timelimit': [None, None], 'root_id': '96e3490e-3ac7-4240-9ea2-a50cf050576c', 'parent_id': None, 'argsrepr': "(ConsumableDocument(source=<DocumentSource.WebUI: 4>, original_file=PosixPath('/tmp/paperless/tmp09_2xt69/Buku Sakti Hacker (Efvy Zam) (Z-Library).pdf'), mailrule_id=None, mime_type='application/pdf'), DocumentMetadataOverrides(filename='Buku Sakti Hacker (Efvy Zam) (Z-Library).pdf', title=None, correspondent_id=None, document_type_id=None, tag_ids=None, storage_path_id=None, created=None, asn=None, owner_id=3, view_users=None, view_groups=None, change_users=None, change_groups=None, custom_fields=None))", 'kwargsrepr': '{}', 'origin': 'gen214@0ef663c5f99f', 'ignore_result': False, 'replaced_task_nesting': 0, 'stamped_headers': None,... kwargs:{})
+[2025-08-12 20:45:00,009] [DEBUG] [celery.beat] beat: Synchronizing schedule...
+[2025-08-12 20:45:00,200] [DEBUG] [celery.beat] beat: Waking up in 5.00 minutes.
+[2025-08-12 20:45:00,242] [INFO] [celery.worker.strategy] Task documents.tasks.consume_file[402f10fb-ef14-452a-b7a6-8117b7336cb4] received
+[2025-08-12 20:46:18,203] [INFO] [celery.app.trace] Task documents.tasks.consume_file[96e3490e-3ac7-4240-9ea2-a50cf050576c] succeeded in 147.93964589099778s: 'Success. New document id 1 created'
+[2025-08-12 20:46:18,216] [DEBUG] [celery.pool] TaskPool: Apply <function fast_trace_task at 0x7a1ff2b80cc0> (args:('documents.tasks.consume_file', '402f10fb-ef14-452a-b7a6-8117b7336cb4', {'lang': 'py', 'task': 'documents.tasks.consume_file', 'id': '402f10fb-ef14-452a-b7a6-8117b7336cb4', 'shadow': None, 'eta': None, 'expires': None, 'group': None, 'group_index': None, 'retries': 0, 'timelimit': [None, None], 'root_id': '402f10fb-ef14-452a-b7a6-8117b7336cb4', 'parent_id': None, 'argsrepr': "(ConsumableDocument(source=<DocumentSource.WebUI: 4>, original_file=PosixPath('/tmp/paperless/tmpdwff8jx6/AL MULK TOPOLOGY.drawio.pdf'), mailrule_id=None, mime_type='application/pdf'), DocumentMetadataOverrides(filename='AL MULK TOPOLOGY.drawio.pdf', title=None, correspondent_id=None, document_type_id=None, tag_ids=None, storage_path_id=None, created=None, asn=None, owner_id=3, view_users=None, view_groups=None, change_users=None, change_groups=None, custom_fields=None))", 'kwargsrepr': '{}', 'origin': 'gen214@0ef663c5f99f', 'ignore_result': False, 'replaced_task_nesting': 0, 'stamped_headers': None, 'stamps': {}, 'properties':... kwargs:{})
+[2025-08-12 20:46:20,659] [INFO] [celery.app.trace] Task documents.tasks.consume_file[402f10fb-ef14-452a-b7a6-8117b7336cb4] succeeded in 1.932542681999621s: 'Success. New document id 2 created'
+[2025-08-12 20:46:33,836] [DEBUG] [kombu.pidbox] pidbox received method ping() [reply_to:{'exchange': 'reply.celery.pidbox', 'routing_key': '609210dd-edf3-3d5d-af31-5fa8d9ee2e77'} ticket:01ebc2fa-e89b-4044-8d0d-6af68cba77a8]
+[2025-08-12 20:49:44,051] [INFO] [celery.worker.strategy] Task documents.tasks.consume_file[0806aa26-2978-4ae4-9190-d5645453f982] received
+[2025-08-12 20:49:44,051] [DEBUG] [celery.pool] TaskPool: Apply <function fast_trace_task at 0x7a1ff2b80cc0> (args:('documents.tasks.consume_file', '0806aa26-2978-4ae4-9190-d5645453f982', {'lang': 'py', 'task': 'documents.tasks.consume_file', 'id': '0806aa26-2978-4ae4-9190-d5645453f982', 'shadow': None, 'eta': None, 'expires': None, 'group': None, 'group_index': None, 'retries': 0, 'timelimit': [None, None], 'root_id': '0806aa26-2978-4ae4-9190-d5645453f982', 'parent_id': None, 'argsrepr': "(ConsumableDocument(source=<DocumentSource.WebUI: 4>, original_file=PosixPath('/tmp/paperless/tmpfvdiv95o/Bangkok Naked Now and Then (Jack Diamond) (Z-Library).pdf'), mailrule_id=None, mime_type='application/pdf'), DocumentMetadataOverrides(filename='Bangkok Naked Now and Then (Jack Diamond) (Z-Library).pdf', title=None, correspondent_id=None, document_type_id=None, tag_ids=None, storage_path_id=None, created=None, asn=None, owner_id=3, view_users=None, view_groups=None, change_users=None, change_groups=None, custom_fields=None))", 'kwargsrepr': '{}', 'origin': 'gen214@0ef663c5f99f', 'ignore_result': False, 'replaced_task_nesting': 0,... kwargs:{})
+[2025-08-12 20:49:58,548] [DEBUG] [kombu.pidbox] pidbox received method ping() [reply_to:{'exchange': 'reply.celery.pidbox', 'routing_key': '53be5212-0c37-3121-8e36-ec0ca2b14e1a'} ticket:8e3906d4-1f21-42b7-ad10-0c08afe67af4]
+[2025-08-12 20:49:59,992] [DEBUG] [celery.beat] beat: Synchronizing schedule...
+[2025-08-12 20:50:00,000] [INFO] [celery.beat] Scheduler: Sending due task Check all e-mail accounts (paperless_mail.tasks.process_mail_accounts)
+[2025-08-12 20:50:00,002] [DEBUG] [celery.beat] paperless_mail.tasks.process_mail_accounts sent. id->1808208c-17be-4708-a755-708b39a170f0
+[2025-08-12 20:50:00,003] [DEBUG] [celery.beat] beat: Waking up in 5.00 minutes.
+[2025-08-12 20:50:00,004] [INFO] [celery.worker.strategy] Task paperless_mail.tasks.process_mail_accounts[1808208c-17be-4708-a755-708b39a170f0] received
+[2025-08-12 20:50:28,107] [INFO] [celery.app.trace] Task documents.tasks.consume_file[0806aa26-2978-4ae4-9190-d5645453f982] succeeded in 44.051983001001645s: 'Success. New document id 3 created'
+[2025-08-12 20:50:28,126] [DEBUG] [celery.pool] TaskPool: Apply <function fast_trace_task at 0x7a1ff2b80cc0> (args:('paperless_mail.tasks.process_mail_accounts', '1808208c-17be-4708-a755-708b39a170f0', {'lang': 'py', 'task': 'paperless_mail.tasks.process_mail_accounts', 'id': '1808208c-17be-4708-a755-708b39a170f0', 'shadow': None, 'eta': None, 'expires': '2025-08-12T20:59:00.001002+07:00', 'group': None, 'group_index': None, 'retries': 0, 'timelimit': [None, None], 'root_id': '1808208c-17be-4708-a755-708b39a170f0', 'parent_id': None, 'argsrepr': '()', 'kwargsrepr': '{}', 'origin': 'gen186@0ef663c5f99f', 'ignore_result': False, 'replaced_task_nesting': 0, 'stamped_headers': None, 'stamps': {}, 'properties': {'correlation_id': '1808208c-17be-4708-a755-708b39a170f0', 'reply_to': '2d6db8ad-6038-3a40-ab85-56ff1d3b442f', 'delivery_mode': 2, 'expiration': '540000', 'delivery_info': {'exchange': '', 'routing_key': 'celery'}, 'priority': 0, 'body_encoding': 'base64', 'delivery_tag': 'c352e424-8fa4-4d82-97da-abcd6d6c365a'}, 'reply_to': '2d6db8ad-6038-3a40-ab85-56ff1d3b442f', 'correlation_id':... kwargs:{})
+[2025-08-12 20:50:28,499] [INFO] [celery.app.trace] Task paperless_mail.tasks.process_mail_accounts[1808208c-17be-4708-a755-708b39a170f0] succeeded in 0.03012988499904168s: 'No new documents were added.'
+[2025-08-12 20:53:28,343] [DEBUG] [kombu.pidbox] pidbox received method ping() [reply_to:{'exchange': 'reply.celery.pidbox', 'routing_key': '47eeca5e-6770-333f-866b-1d3e0d79e4f1'} ticket:ae5b86fc-522d-4cf3-a48b-78d260c5be76]
+[2025-08-12 20:53:34,772] [DEBUG] [kombu.pidbox] pidbox received method ping() [reply_to:{'exchange': 'reply.celery.pidbox', 'routing_key': '2cbcdd87-b71d-3021-a4c2-80a9481b5f97'} ticket:1c66b466-e7b4-445b-90b9-d9a3e827d170]
+[2025-08-12 20:53:36,072] [DEBUG] [kombu.pidbox] pidbox received method ping() [reply_to:{'exchange': 'reply.celery.pidbox', 'routing_key': '590eaa2b-081a-329d-9a55-93719b9005ae'} ticket:ae971200-d085-4720-861e-3669f21f2563]
+[2025-08-12 20:55:00,003] [DEBUG] [celery.beat] beat: Synchronizing schedule...
+[2025-08-12 20:55:00,005] [DEBUG] [celery.beat] beat: Waking up in 5.00 minutes.
+[2025-08-12 20:58:19,784] [INFO] [celery.worker.strategy] Task documents.tasks.consume_file[8cd845ee-7270-4cfa-a48f-4f0cd43d9941] received
+[2025-08-12 20:58:19,785] [DEBUG] [celery.pool] TaskPool: Apply <function fast_trace_task at 0x7a1ff2b80cc0> (args:('documents.tasks.consume_file', '8cd845ee-7270-4cfa-a48f-4f0cd43d9941', {'lang': 'py', 'task': 'documents.tasks.consume_file', 'id': '8cd845ee-7270-4cfa-a48f-4f0cd43d9941', 'shadow': None, 'eta': None, 'expires': None, 'group': None, 'group_index': None, 'retries': 0, 'timelimit': [None, None], 'root_id': '8cd845ee-7270-4cfa-a48f-4f0cd43d9941', 'parent_id': None, 'argsrepr': "(ConsumableDocument(source=<DocumentSource.WebUI: 4>, original_file=PosixPath('/tmp/paperless/tmp3yzzmtkd/Azril.png'), mailrule_id=None, mime_type='image/png'), DocumentMetadataOverrides(filename='Azril.png', title=None, correspondent_id=None, document_type_id=None, tag_ids=None, storage_path_id=None, created=None, asn=None, owner_id=3, view_users=None, view_groups=None, change_users=None, change_groups=None, custom_fields=None))", 'kwargsrepr': '{}', 'origin': 'gen214@0ef663c5f99f', 'ignore_result': False, 'replaced_task_nesting': 0, 'stamped_headers': None, 'stamps': {}, 'properties': {'correlation_id':... kwargs:{})
+[2025-08-12 20:58:22,967] [INFO] [celery.app.trace] Task documents.tasks.consume_file[8cd845ee-7270-4cfa-a48f-4f0cd43d9941] succeeded in 3.1786922390019754s: 'Success. New document id 4 created'
+[2025-08-12 20:59:10,354] [DEBUG] [kombu.pidbox] pidbox received method ping() [reply_to:{'exchange': 'reply.celery.pidbox', 'routing_key': 'fa80080a-17ec-3557-9da5-f02cdd44f54d'} ticket:660f4516-c188-4cdf-803b-d1171cf9c629]
+[2025-08-12 20:59:59,990] [DEBUG] [celery.beat] beat: Synchronizing schedule...
+[2025-08-12 21:00:00,000] [INFO] [celery.beat] Scheduler: Sending due task Check all e-mail accounts (paperless_mail.tasks.process_mail_accounts)
+[2025-08-12 21:00:00,002] [DEBUG] [celery.beat] paperless_mail.tasks.process_mail_accounts sent. id->b0cc723f-965f-4579-989d-05c4686dde25
+[2025-08-12 21:00:00,002] [DEBUG] [celery.beat] beat: Waking up in 5.00 minutes.
+[2025-08-12 21:00:00,003] [INFO] [celery.worker.strategy] Task paperless_mail.tasks.process_mail_accounts[b0cc723f-965f-4579-989d-05c4686dde25] received
+[2025-08-12 21:00:00,003] [DEBUG] [celery.pool] TaskPool: Apply <function fast_trace_task at 0x7a1ff2b80cc0> (args:('paperless_mail.tasks.process_mail_accounts', 'b0cc723f-965f-4579-989d-05c4686dde25', {'lang': 'py', 'task': 'paperless_mail.tasks.process_mail_accounts', 'id': 'b0cc723f-965f-4579-989d-05c4686dde25', 'shadow': None, 'eta': None, 'expires': '2025-08-12T21:09:00.000732+07:00', 'group': None, 'group_index': None, 'retries': 0, 'timelimit': [None, None], 'root_id': 'b0cc723f-965f-4579-989d-05c4686dde25', 'parent_id': None, 'argsrepr': '()', 'kwargsrepr': '{}', 'origin': 'gen186@0ef663c5f99f', 'ignore_result': False, 'replaced_task_nesting': 0, 'stamped_headers': None, 'stamps': {}, 'properties': {'correlation_id': 'b0cc723f-965f-4579-989d-05c4686dde25', 'reply_to': '2d6db8ad-6038-3a40-ab85-56ff1d3b442f', 'delivery_mode': 2, 'expiration': '540000', 'delivery_info': {'exchange': '', 'routing_key': 'celery'}, 'priority': 0, 'body_encoding': 'base64', 'delivery_tag': '8605989e-9684-46ac-a52e-78c44c0c076b'}, 'reply_to': '2d6db8ad-6038-3a40-ab85-56ff1d3b442f', 'correlation_id':... kwargs:{})
+[2025-08-12 21:00:00,035] [INFO] [celery.app.trace] Task paperless_mail.tasks.process_mail_accounts[b0cc723f-965f-4579-989d-05c4686dde25] succeeded in 0.030865454999002395s: 'No new documents were added.'
+[2025-08-12 21:04:59,990] [DEBUG] [celery.beat] beat: Synchronizing schedule...
+[2025-08-12 21:05:00,000] [INFO] [celery.beat] Scheduler: Sending due task Train the classifier (documents.tasks.train_classifier)
+[2025-08-12 21:05:00,003] [DEBUG] [celery.beat] documents.tasks.train_classifier sent. id->b48aad6c-c126-4d55-83e6-192e99f84a6d
+[2025-08-12 21:05:00,004] [INFO] [celery.beat] Scheduler: Sending due task Check and run scheduled workflows (documents.tasks.check_scheduled_workflows)
+[2025-08-12 21:05:00,005] [INFO] [celery.worker.strategy] Task documents.tasks.train_classifier[b48aad6c-c126-4d55-83e6-192e99f84a6d] received
+[2025-08-12 21:05:00,007] [DEBUG] [celery.pool] TaskPool: Apply <function fast_trace_task at 0x7a1ff2b80cc0> (args:('documents.tasks.train_classifier', 'b48aad6c-c126-4d55-83e6-192e99f84a6d', {'lang': 'py', 'task': 'documents.tasks.train_classifier', 'id': 'b48aad6c-c126-4d55-83e6-192e99f84a6d', 'shadow': None, 'eta': None, 'expires': '2025-08-12T22:04:00.001008+07:00', 'group': None, 'group_index': None, 'retries': 0, 'timelimit': [None, None], 'root_id': 'b48aad6c-c126-4d55-83e6-192e99f84a6d', 'parent_id': None, 'argsrepr': '()', 'kwargsrepr': '{}', 'origin': 'gen186@0ef663c5f99f', 'ignore_result': False, 'replaced_task_nesting': 0, 'stamped_headers': None, 'stamps': {}, 'properties': {'correlation_id': 'b48aad6c-c126-4d55-83e6-192e99f84a6d', 'reply_to': '2d6db8ad-6038-3a40-ab85-56ff1d3b442f', 'delivery_mode': 2, 'expiration': '3540000', 'delivery_info': {'exchange': '', 'routing_key': 'celery'}, 'priority': 0, 'body_encoding': 'base64', 'delivery_tag': '3709cf16-7e9a-4371-9491-1507c72fd401'}, 'reply_to': '2d6db8ad-6038-3a40-ab85-56ff1d3b442f', 'correlation_id': 'b48aad6c-c126-4d55-83e6-192e99f84a6d', 'hostname':... kwargs:{})
+[2025-08-12 21:05:00,009] [DEBUG] [celery.beat] documents.tasks.check_scheduled_workflows sent. id->8ef95545-696a-401c-9cd1-a5a89d584fba
+[2025-08-12 21:05:00,010] [DEBUG] [celery.beat] beat: Waking up in 5.00 minutes.
+[2025-08-12 21:05:00,011] [INFO] [celery.worker.strategy] Task documents.tasks.check_scheduled_workflows[8ef95545-696a-401c-9cd1-a5a89d584fba] received
+[2025-08-12 21:05:05,364] [INFO] [celery.app.trace] Task documents.tasks.train_classifier[b48aad6c-c126-4d55-83e6-192e99f84a6d] succeeded in 5.3538360109996574s: None
+[2025-08-12 21:05:05,384] [DEBUG] [celery.pool] TaskPool: Apply <function fast_trace_task at 0x7a1ff2b80cc0> (args:('documents.tasks.check_scheduled_workflows', '8ef95545-696a-401c-9cd1-a5a89d584fba', {'lang': 'py', 'task': 'documents.tasks.check_scheduled_workflows', 'id': '8ef95545-696a-401c-9cd1-a5a89d584fba', 'shadow': None, 'eta': None, 'expires': '2025-08-12T22:04:00.006421+07:00', 'group': None, 'group_index': None, 'retries': 0, 'timelimit': [None, None], 'root_id': '8ef95545-696a-401c-9cd1-a5a89d584fba', 'parent_id': None, 'argsrepr': '()', 'kwargsrepr': '{}', 'origin': 'gen186@0ef663c5f99f', 'ignore_result': False, 'replaced_task_nesting': 0, 'stamped_headers': None, 'stamps': {}, 'properties': {'correlation_id': '8ef95545-696a-401c-9cd1-a5a89d584fba', 'reply_to': '2d6db8ad-6038-3a40-ab85-56ff1d3b442f', 'delivery_mode': 2, 'expiration': '3540000', 'delivery_info': {'exchange': '', 'routing_key': 'celery'}, 'priority': 0, 'body_encoding': 'base64', 'delivery_tag': '302ff8c2-f084-4911-b9c9-e1ec165b3c6a'}, 'reply_to': '2d6db8ad-6038-3a40-ab85-56ff1d3b442f', 'correlation_id': '8ef95545-696a-401c-9cd1-a5a89d584fba',... kwargs:{})
+[2025-08-12 21:05:09,579] [INFO] [celery.app.trace] Task documents.tasks.check_scheduled_workflows[8ef95545-696a-401c-9cd1-a5a89d584fba] succeeded in 0.0557966669985035s: None
+[2025-08-12 21:09:59,991] [DEBUG] [celery.beat] beat: Synchronizing schedule...
+[2025-08-12 21:10:00,000] [INFO] [celery.beat] Scheduler: Sending due task Check all e-mail accounts (paperless_mail.tasks.process_mail_accounts)
+[2025-08-12 21:10:00,004] [INFO] [celery.worker.strategy] Task paperless_mail.tasks.process_mail_accounts[eb7bccad-f9f1-423a-9dd0-3d602a7c5a57] received
+[2025-08-12 21:10:00,005] [DEBUG] [celery.beat] paperless_mail.tasks.process_mail_accounts sent. id->eb7bccad-f9f1-423a-9dd0-3d602a7c5a57
+[2025-08-12 21:10:00,005] [DEBUG] [celery.beat] beat: Waking up in 5.00 minutes.
+[2025-08-12 21:10:00,006] [DEBUG] [celery.pool] TaskPool: Apply <function fast_trace_task at 0x7a1ff2b80cc0> (args:('paperless_mail.tasks.process_mail_accounts', 'eb7bccad-f9f1-423a-9dd0-3d602a7c5a57', {'lang': 'py', 'task': 'paperless_mail.tasks.process_mail_accounts', 'id': 'eb7bccad-f9f1-423a-9dd0-3d602a7c5a57', 'shadow': None, 'eta': None, 'expires': '2025-08-12T21:19:00.001153+07:00', 'group': None, 'group_index': None, 'retries': 0, 'timelimit': [None, None], 'root_id': 'eb7bccad-f9f1-423a-9dd0-3d602a7c5a57', 'parent_id': None, 'argsrepr': '()', 'kwargsrepr': '{}', 'origin': 'gen186@0ef663c5f99f', 'ignore_result': False, 'replaced_task_nesting': 0, 'stamped_headers': None, 'stamps': {}, 'properties': {'correlation_id': 'eb7bccad-f9f1-423a-9dd0-3d602a7c5a57', 'reply_to': '2d6db8ad-6038-3a40-ab85-56ff1d3b442f', 'delivery_mode': 2, 'expiration': '540000', 'delivery_info': {'exchange': '', 'routing_key': 'celery'}, 'priority': 0, 'body_encoding': 'base64', 'delivery_tag': 'f7766c65-0c89-488a-a20a-d1aa51aa4688'}, 'reply_to': '2d6db8ad-6038-3a40-ab85-56ff1d3b442f', 'correlation_id':... kwargs:{})
+[2025-08-12 21:10:00,049] [INFO] [celery.app.trace] Task paperless_mail.tasks.process_mail_accounts[eb7bccad-f9f1-423a-9dd0-3d602a7c5a57] succeeded in 0.041367653000634164s: 'No new documents were added.'
+[2025-08-12 21:15:00,006] [DEBUG] [celery.beat] beat: Synchronizing schedule...
+[2025-08-12 21:15:00,008] [DEBUG] [celery.beat] beat: Waking up in 5.00 minutes.
+[2025-08-12 21:19:59,990] [DEBUG] [celery.beat] beat: Synchronizing schedule...
+[2025-08-12 21:20:00,000] [INFO] [celery.beat] Scheduler: Sending due task Check all e-mail accounts (paperless_mail.tasks.process_mail_accounts)
+[2025-08-12 21:20:00,001] [DEBUG] [celery.beat] paperless_mail.tasks.process_mail_accounts sent. id->23efab72-44d4-4dab-ac0d-948d38e5874f
+[2025-08-12 21:20:00,002] [DEBUG] [celery.beat] beat: Waking up in 5.00 minutes.
+[2025-08-12 21:20:00,003] [INFO] [celery.worker.strategy] Task paperless_mail.tasks.process_mail_accounts[23efab72-44d4-4dab-ac0d-948d38e5874f] received
+[2025-08-12 21:20:00,003] [DEBUG] [celery.pool] TaskPool: Apply <function fast_trace_task at 0x7a1ff2b80cc0> (args:('paperless_mail.tasks.process_mail_accounts', '23efab72-44d4-4dab-ac0d-948d38e5874f', {'lang': 'py', 'task': 'paperless_mail.tasks.process_mail_accounts', 'id': '23efab72-44d4-4dab-ac0d-948d38e5874f', 'shadow': None, 'eta': None, 'expires': '2025-08-12T21:29:00.000596+07:00', 'group': None, 'group_index': None, 'retries': 0, 'timelimit': [None, None], 'root_id': '23efab72-44d4-4dab-ac0d-948d38e5874f', 'parent_id': None, 'argsrepr': '()', 'kwargsrepr': '{}', 'origin': 'gen186@0ef663c5f99f', 'ignore_result': False, 'replaced_task_nesting': 0, 'stamped_headers': None, 'stamps': {}, 'properties': {'correlation_id': '23efab72-44d4-4dab-ac0d-948d38e5874f', 'reply_to': '2d6db8ad-6038-3a40-ab85-56ff1d3b442f', 'delivery_mode': 2, 'expiration': '540000', 'delivery_info': {'exchange': '', 'routing_key': 'celery'}, 'priority': 0, 'body_encoding': 'base64', 'delivery_tag': '34ee0587-f3ef-426c-9c67-b14a188a8db5'}, 'reply_to': '2d6db8ad-6038-3a40-ab85-56ff1d3b442f', 'correlation_id':... kwargs:{})
+[2025-08-12 21:20:00,034] [INFO] [celery.app.trace] Task paperless_mail.tasks.process_mail_accounts[23efab72-44d4-4dab-ac0d-948d38e5874f] succeeded in 0.029823433000274235s: 'No new documents were added.'
+[2025-08-12 21:23:00,604] [DEBUG] [kombu.pidbox] pidbox received method ping() [reply_to:{'exchange': 'reply.celery.pidbox', 'routing_key': 'b175b8d4-94f2-3565-aaed-557a1c6bddd5'} ticket:382fdfec-a8b7-47fe-a69a-fd2d8b8667fb]
+[2025-08-12 21:25:00,002] [DEBUG] [celery.beat] beat: Synchronizing schedule...
+[2025-08-12 21:25:00,004] [DEBUG] [celery.beat] beat: Waking up in 5.00 minutes.

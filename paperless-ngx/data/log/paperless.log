@@ -1,0 +1,735 @@
+[2025-08-12 20:38:59,151] [INFO] [paperless.management.consumer] Using inotify to watch directory for changes: /usr/src/paperless/consume
+[2025-08-12 20:39:00,013] [INFO] [paperless.asgi] [init] Paperless-ngx version: v2.17.1
+[2025-08-12 20:39:00,016] [INFO] [_granian.asgi.serve] Started worker-1
+[2025-08-12 20:39:00,016] [INFO] [_granian.asgi.serve] Started worker-1 runtime-1
+[2025-08-12 20:39:00,947] [INFO] [_granian.asgi.serve] Stopping worker-1
+[2025-08-12 20:39:00,948] [INFO] [_granian.asgi.serve] Stopping worker-1 runtime-1
+[2025-08-12 20:39:31,372] [INFO] [paperless.management.consumer] Using inotify to watch directory for changes: /usr/src/paperless/consume
+[2025-08-12 20:39:32,489] [INFO] [paperless.asgi] [init] Paperless-ngx version: v2.17.1
+[2025-08-12 20:39:32,491] [INFO] [_granian.asgi.serve] Started worker-1
+[2025-08-12 20:39:32,491] [INFO] [_granian.asgi.serve] Started worker-1 runtime-1
+[2025-08-12 20:43:50,303] [DEBUG] [paperless.tasks] Executing plugin ConsumerPreflightPlugin
+[2025-08-12 20:43:50,326] [INFO] [paperless.tasks] ConsumerPreflightPlugin completed with no message
+[2025-08-12 20:43:50,326] [DEBUG] [paperless.tasks] Skipping plugin CollatePlugin
+[2025-08-12 20:43:50,328] [DEBUG] [paperless.tasks] Skipping plugin BarcodePlugin
+[2025-08-12 20:43:50,328] [DEBUG] [paperless.tasks] Executing plugin WorkflowTriggerPlugin
+[2025-08-12 20:43:50,331] [INFO] [paperless.tasks] WorkflowTriggerPlugin completed with: 
+[2025-08-12 20:43:50,331] [DEBUG] [paperless.tasks] Executing plugin ConsumeTaskPlugin
+[2025-08-12 20:43:50,331] [INFO] [paperless.consumer] Consuming Buku Sakti Hacker (Efvy Zam) (Z-Library).pdf
+[2025-08-12 20:43:50,340] [DEBUG] [paperless.consumer] Detected mime type: application/pdf
+[2025-08-12 20:43:50,346] [DEBUG] [paperless.consumer] Parser: RasterisedDocumentParser
+[2025-08-12 20:43:50,349] [DEBUG] [paperless.consumer] Parsing Buku Sakti Hacker (Efvy Zam) (Z-Library).pdf...
+[2025-08-12 20:43:50,501] [INFO] [paperless.parsing.tesseract] pdftotext exited 0
+[2025-08-12 20:43:50,800] [DEBUG] [paperless.parsing.tesseract] Calling OCRmyPDF with args: {'input_file': PosixPath('/tmp/paperless/paperless-ngx2ek96gqn/Buku Sakti Hacker (Efvy Zam) (Z-Library).pdf'), 'output_file': PosixPath('/tmp/paperless/paperless-4z_bcrkp/archive.pdf'), 'use_threads': True, 'jobs': 2, 'language': 'eng', 'output_type': 'pdfa', 'progress_bar': False, 'color_conversion_strategy': 'RGB', 'skip_text': True, 'clean': True, 'deskew': True, 'rotate_pages': True, 'rotate_pages_threshold': 12.0, 'sidecar': PosixPath('/tmp/paperless/paperless-4z_bcrkp/sidecar.txt')}
+[2025-08-12 20:43:54,451] [INFO] [ocrmypdf._pipelines.ocr] Start processing 2 pages concurrently
+[2025-08-12 20:43:55,278] [INFO] [ocrmypdf._exec.tesseract] [tesseract] Too few characters. Skipping this page
+[2025-08-12 20:43:55,279] [ERROR] [ocrmypdf._exec.tesseract] [tesseract] Error during processing.
+[2025-08-12 20:43:55,280] [INFO] [ocrmypdf._pipeline] page is facing ⇧, confidence 0.00 - no change
+[2025-08-12 20:43:55,435] [INFO] [ocrmypdf._pipeline] page is facing ⇩, confidence 1.01 - confidence too low to rotate
+[2025-08-12 20:43:58,308] [INFO] [ocrmypdf._pipeline] page is facing ⇧, confidence 1.45 - no change
+[2025-08-12 20:44:00,029] [INFO] [ocrmypdf._pipeline] page is facing ⇩, confidence 0.94 - confidence too low to rotate
+[2025-08-12 20:44:00,948] [INFO] [ocrmypdf._pipeline] page is facing ⇩, confidence 5.97 - confidence too low to rotate
+[2025-08-12 20:44:02,373] [INFO] [ocrmypdf._pipeline] page is facing ⇩, confidence 1.81 - confidence too low to rotate
+[2025-08-12 20:44:03,894] [INFO] [ocrmypdf._exec.tesseract] [tesseract] Too few characters. Skipping this page
+[2025-08-12 20:44:03,894] [ERROR] [ocrmypdf._exec.tesseract] [tesseract] Error during processing.
+[2025-08-12 20:44:03,895] [INFO] [ocrmypdf._pipeline] page is facing ⇧, confidence 0.00 - no change
+[2025-08-12 20:44:06,157] [INFO] [ocrmypdf._pipeline] page is facing ⇩, confidence 3.71 - confidence too low to rotate
+[2025-08-12 20:44:06,340] [WARNING] [ocrmypdf._exec.tesseract] [tesseract] Warning:guessing pitch as xheight on row 2, block 1
+[2025-08-12 20:44:06,341] [WARNING] [ocrmypdf._exec.tesseract] [tesseract] Warning:guessing pitch as xheight on row 3, block 1
+[2025-08-12 20:44:06,341] [WARNING] [ocrmypdf._exec.tesseract] [tesseract] Warning:guessing pitch as xheight on row 4, block 1
+[2025-08-12 20:44:06,342] [WARNING] [ocrmypdf._exec.tesseract] [tesseract] Warning:guessing pitch as xheight on row 5, block 1
+[2025-08-12 20:44:06,342] [WARNING] [ocrmypdf._exec.tesseract] [tesseract] Warning:guessing pitch as xheight on row 1, block 3
+[2025-08-12 20:44:06,343] [WARNING] [ocrmypdf._exec.tesseract] [tesseract] Warning:guessing pitch as xheight on row 2, block 4
+[2025-08-12 20:44:06,343] [WARNING] [ocrmypdf._exec.tesseract] [tesseract] Warning:guessing pitch as xheight on row 3, block 4
+[2025-08-12 20:44:06,344] [WARNING] [ocrmypdf._exec.tesseract] [tesseract] Warning:guessing pitch as xheight on row 1, block 6
+[2025-08-12 20:44:06,344] [WARNING] [ocrmypdf._exec.tesseract] [tesseract] Warning:guessing pitch as xheight on row 1, block 7
+[2025-08-12 20:44:06,345] [WARNING] [ocrmypdf._exec.tesseract] [tesseract] Warning:guessing pitch as xheight on row 2, block 7
+[2025-08-12 20:44:06,345] [WARNING] [ocrmypdf._exec.tesseract] [tesseract] Warning:guessing pitch as xheight on row 3, block 7
+[2025-08-12 20:44:06,346] [WARNING] [ocrmypdf._exec.tesseract] [tesseract] Warning:guessing pitch as xheight on row 4, block 7
+[2025-08-12 20:44:06,346] [WARNING] [ocrmypdf._exec.tesseract] [tesseract] Warning:guessing pitch as xheight on row 5, block 7
+[2025-08-12 20:44:06,347] [WARNING] [ocrmypdf._exec.tesseract] [tesseract] Warning:guessing pitch as xheight on row 6, block 7
+[2025-08-12 20:44:06,347] [WARNING] [ocrmypdf._exec.tesseract] [tesseract] Warning:guessing pitch as xheight on row 1, block 9
+[2025-08-12 20:44:06,348] [WARNING] [ocrmypdf._exec.tesseract] [tesseract] Warning:guessing pitch as xheight on row 1, block 11
+[2025-08-12 20:44:06,348] [WARNING] [ocrmypdf._exec.tesseract] [tesseract] Warning:guessing pitch as xheight on row 1, block 12
+[2025-08-12 20:44:07,325] [INFO] [ocrmypdf._pipeline] page is facing ⇩, confidence 7.05 - confidence too low to rotate
+[2025-08-12 20:44:09,531] [INFO] [ocrmypdf._pipeline] page is facing ⇩, confidence 4.91 - confidence too low to rotate
+[2025-08-12 20:44:10,520] [INFO] [ocrmypdf._pipeline] page is facing ⇧, confidence 0.05 - no change
+[2025-08-12 20:44:12,889] [INFO] [ocrmypdf._pipeline] page is facing ⇩, confidence 6.61 - confidence too low to rotate
+[2025-08-12 20:44:13,158] [INFO] [ocrmypdf._pipeline] page is facing ⇩, confidence 4.12 - confidence too low to rotate
+[2025-08-12 20:44:16,068] [INFO] [ocrmypdf._pipeline] page is facing ⇩, confidence 2.25 - confidence too low to rotate
+[2025-08-12 20:44:16,816] [INFO] [ocrmypdf._pipeline] page is facing ⇩, confidence 5.83 - confidence too low to rotate
+[2025-08-12 20:44:18,929] [INFO] [ocrmypdf._pipeline] page is facing ⇩, confidence 1.57 - confidence too low to rotate
+[2025-08-12 20:44:20,371] [INFO] [ocrmypdf._pipeline] page is facing ⇩, confidence 3.36 - confidence too low to rotate
+[2025-08-12 20:44:22,330] [INFO] [ocrmypdf._pipeline] page is facing ⇩, confidence 5.02 - confidence too low to rotate
+[2025-08-12 20:44:23,804] [INFO] [ocrmypdf._pipeline] page is facing ⇩, confidence 1.10 - confidence too low to rotate
+[2025-08-12 20:44:25,906] [INFO] [ocrmypdf._pipeline] page is facing ⇩, confidence 2.59 - confidence too low to rotate
+[2025-08-12 20:44:26,617] [INFO] [ocrmypdf._pipeline] page is facing ⇩, confidence 6.61 - confidence too low to rotate
+[2025-08-12 20:44:28,896] [INFO] [ocrmypdf._pipeline] page is facing ⇩, confidence 1.87 - confidence too low to rotate
+[2025-08-12 20:44:29,849] [INFO] [ocrmypdf._pipeline] page is facing ⇩, confidence 2.50 - confidence too low to rotate
+[2025-08-12 20:44:32,087] [INFO] [ocrmypdf._pipeline] page is facing ⇩, confidence 4.76 - confidence too low to rotate
+[2025-08-12 20:44:33,170] [INFO] [ocrmypdf._pipeline] page is facing ⇩, confidence 2.83 - confidence too low to rotate
+[2025-08-12 20:44:35,226] [INFO] [ocrmypdf._pipeline] page is facing ⇧, confidence 1.11 - no change
+[2025-08-12 20:44:35,504] [INFO] [ocrmypdf._exec.tesseract] [tesseract] Too few characters. Skipping this page
+[2025-08-12 20:44:35,504] [ERROR] [ocrmypdf._exec.tesseract] [tesseract] Error during processing.
+[2025-08-12 20:44:35,505] [INFO] [ocrmypdf._pipeline] page is facing ⇧, confidence 0.00 - no change
+[2025-08-12 20:44:38,101] [INFO] [ocrmypdf._pipeline] page is facing ⇩, confidence 8.81 - confidence too low to rotate
+[2025-08-12 20:44:38,321] [INFO] [ocrmypdf._pipeline] page is facing ⇩, confidence 3.38 - confidence too low to rotate
+[2025-08-12 20:44:38,503] [INFO] [_granian.asgi.io] ASGI transport error: SendError { .. }
+[2025-08-12 20:44:38,505] [INFO] [_granian.asgi.io] ASGI transport error: SendError { .. }
+[2025-08-12 20:44:42,029] [INFO] [ocrmypdf._pipeline] page is facing ⇩, confidence 2.05 - confidence too low to rotate
+[2025-08-12 20:44:42,328] [INFO] [ocrmypdf._pipeline] page is facing ⇧, confidence 0.43 - no change
+[2025-08-12 20:44:45,653] [INFO] [ocrmypdf._pipeline] page is facing ⇩, confidence 5.03 - confidence too low to rotate
+[2025-08-12 20:44:45,891] [INFO] [ocrmypdf._pipeline] page is facing ⇩, confidence 1.05 - confidence too low to rotate
+[2025-08-12 20:44:48,483] [INFO] [ocrmypdf._exec.tesseract] [tesseract] Too few characters. Skipping this page
+[2025-08-12 20:44:48,483] [ERROR] [ocrmypdf._exec.tesseract] [tesseract] Error during processing.
+[2025-08-12 20:44:48,484] [INFO] [ocrmypdf._pipeline] page is facing ⇧, confidence 0.00 - no change
+[2025-08-12 20:44:49,141] [INFO] [ocrmypdf._pipeline] page is facing ⇩, confidence 8.87 - confidence too low to rotate
+[2025-08-12 20:44:51,110] [INFO] [ocrmypdf._pipeline] page is facing ⇩, confidence 3.22 - confidence too low to rotate
+[2025-08-12 20:44:51,949] [WARNING] [ocrmypdf._exec.tesseract] [tesseract] lots of diacritics - possibly poor OCR
+[2025-08-12 20:44:52,838] [INFO] [ocrmypdf._pipeline] page is facing ⇩, confidence 6.20 - confidence too low to rotate
+[2025-08-12 20:44:54,979] [INFO] [ocrmypdf._pipeline] page is facing ⇩, confidence 6.40 - confidence too low to rotate
+[2025-08-12 20:44:56,431] [INFO] [ocrmypdf._pipeline] page is facing ⇩, confidence 3.58 - confidence too low to rotate
+[2025-08-12 20:44:58,390] [INFO] [ocrmypdf._pipeline] page is facing ⇩, confidence 5.14 - confidence too low to rotate
+[2025-08-12 20:44:59,234] [WARNING] [ocrmypdf._exec.tesseract] [tesseract] lots of diacritics - possibly poor OCR
+[2025-08-12 20:45:00,457] [INFO] [ocrmypdf._pipeline] page is facing ⇩, confidence 9.73 - confidence too low to rotate
+[2025-08-12 20:45:02,217] [INFO] [ocrmypdf._pipeline] page is facing ⇩, confidence 5.44 - confidence too low to rotate
+[2025-08-12 20:45:03,946] [INFO] [ocrmypdf._pipeline] page is facing ⇩, confidence 3.50 - confidence too low to rotate
+[2025-08-12 20:45:05,444] [INFO] [ocrmypdf._pipeline] page is facing ⇧, confidence 1.26 - no change
+[2025-08-12 20:45:07,546] [INFO] [ocrmypdf._pipeline] page is facing ⇩, confidence 0.85 - confidence too low to rotate
+[2025-08-12 20:45:09,025] [INFO] [ocrmypdf._pipeline] page is facing ⇩, confidence 4.39 - confidence too low to rotate
+[2025-08-12 20:45:10,410] [INFO] [ocrmypdf._pipeline] page is facing ⇧, confidence 0.24 - no change
+[2025-08-12 20:45:12,571] [INFO] [ocrmypdf._pipeline] page is facing ⇩, confidence 1.35 - confidence too low to rotate
+[2025-08-12 20:45:12,786] [INFO] [ocrmypdf._pipeline] page is facing ⇩, confidence 0.41 - confidence too low to rotate
+[2025-08-12 20:45:14,857] [INFO] [ocrmypdf._pipeline] page is facing ⇩, confidence 0.60 - confidence too low to rotate
+[2025-08-12 20:45:15,581] [INFO] [ocrmypdf._pipeline] page is facing ⇩, confidence 5.11 - confidence too low to rotate
+[2025-08-12 20:45:17,880] [INFO] [ocrmypdf._pipeline] page is facing ⇩, confidence 4.45 - confidence too low to rotate
+[2025-08-12 20:45:18,551] [INFO] [ocrmypdf._exec.tesseract] [tesseract] Too few characters. Skipping this page
+[2025-08-12 20:45:18,552] [ERROR] [ocrmypdf._exec.tesseract] [tesseract] Error during processing.
+[2025-08-12 20:45:18,552] [INFO] [ocrmypdf._pipeline] page is facing ⇧, confidence 0.00 - no change
+[2025-08-12 20:45:21,462] [INFO] [ocrmypdf._exec.tesseract] [tesseract] Too few characters. Skipping this page
+[2025-08-12 20:45:21,465] [ERROR] [ocrmypdf._exec.tesseract] [tesseract] Error during processing.
+[2025-08-12 20:45:21,466] [INFO] [ocrmypdf._pipeline] page is facing ⇧, confidence 0.00 - no change
+[2025-08-12 20:45:22,059] [INFO] [ocrmypdf._exec.tesseract] [tesseract] Too few characters. Skipping this page
+[2025-08-12 20:45:22,061] [ERROR] [ocrmypdf._exec.tesseract] [tesseract] Error during processing.
+[2025-08-12 20:45:22,063] [INFO] [ocrmypdf._pipeline] page is facing ⇧, confidence 0.00 - no change
+[2025-08-12 20:45:25,562] [INFO] [ocrmypdf._exec.tesseract] [tesseract] Too few characters. Skipping this page
+[2025-08-12 20:45:25,562] [ERROR] [ocrmypdf._exec.tesseract] [tesseract] Error during processing.
+[2025-08-12 20:45:25,563] [INFO] [ocrmypdf._pipeline] page is facing ⇧, confidence 0.00 - no change
+[2025-08-12 20:45:25,655] [INFO] [ocrmypdf._exec.tesseract] [tesseract] Too few characters. Skipping this page
+[2025-08-12 20:45:25,656] [ERROR] [ocrmypdf._exec.tesseract] [tesseract] Error during processing.
+[2025-08-12 20:45:25,656] [INFO] [ocrmypdf._pipeline] page is facing ⇧, confidence 0.00 - no change
+[2025-08-12 20:45:28,869] [INFO] [ocrmypdf._exec.tesseract] [tesseract] Too few characters. Skipping this page
+[2025-08-12 20:45:28,869] [ERROR] [ocrmypdf._exec.tesseract] [tesseract] Error during processing.
+[2025-08-12 20:45:28,870] [INFO] [ocrmypdf._pipeline] page is facing ⇧, confidence 0.00 - no change
+[2025-08-12 20:45:29,715] [INFO] [ocrmypdf._pipeline] page is facing ⇧, confidence 0.63 - no change
+[2025-08-12 20:45:33,728] [INFO] [ocrmypdf._pipeline] page is facing ⇩, confidence 3.96 - confidence too low to rotate
+[2025-08-12 20:45:34,019] [INFO] [ocrmypdf._pipeline] page is facing ⇩, confidence 1.02 - confidence too low to rotate
+[2025-08-12 20:45:36,281] [WARNING] [ocrmypdf._exec.tesseract] [tesseract] lots of diacritics - possibly poor OCR
+[2025-08-12 20:45:37,154] [INFO] [ocrmypdf._pipeline] page is facing ⇧, confidence 2.06 - no change
+[2025-08-12 20:45:37,160] [INFO] [ocrmypdf._pipeline] page is facing ⇩, confidence 2.24 - confidence too low to rotate
+[2025-08-12 20:45:39,383] [WARNING] [ocrmypdf._exec.tesseract] [tesseract] lots of diacritics - possibly poor OCR
+[2025-08-12 20:45:40,215] [INFO] [ocrmypdf._pipeline] page is facing ⇩, confidence 2.04 - confidence too low to rotate
+[2025-08-12 20:45:40,405] [INFO] [ocrmypdf._pipeline] page is facing ⇩, confidence 5.00 - confidence too low to rotate
+[2025-08-12 20:45:43,319] [INFO] [ocrmypdf._pipeline] page is facing ⇩, confidence 7.20 - confidence too low to rotate
+[2025-08-12 20:45:43,558] [INFO] [ocrmypdf._pipeline] page is facing ⇩, confidence 2.41 - confidence too low to rotate
+[2025-08-12 20:45:46,849] [INFO] [ocrmypdf._pipeline] page is facing ⇩, confidence 2.38 - confidence too low to rotate
+[2025-08-12 20:45:47,079] [INFO] [ocrmypdf._pipeline] page is facing ⇩, confidence 2.18 - confidence too low to rotate
+[2025-08-12 20:45:50,025] [INFO] [ocrmypdf._pipeline] page is facing ⇩, confidence 4.16 - confidence too low to rotate
+[2025-08-12 20:45:50,033] [INFO] [ocrmypdf._pipeline] page is facing ⇩, confidence 2.54 - confidence too low to rotate
+[2025-08-12 20:45:53,091] [INFO] [ocrmypdf._pipeline] page is facing ⇩, confidence 2.41 - confidence too low to rotate
+[2025-08-12 20:45:53,096] [INFO] [ocrmypdf._pipeline] page is facing ⇩, confidence 1.64 - confidence too low to rotate
+[2025-08-12 20:45:55,643] [INFO] [ocrmypdf._pipeline] page is facing ⇩, confidence 1.38 - confidence too low to rotate
+[2025-08-12 20:45:56,033] [INFO] [ocrmypdf._pipeline] page is facing ⇩, confidence 2.89 - confidence too low to rotate
+[2025-08-12 20:45:58,518] [INFO] [ocrmypdf._pipeline] page is facing ⇩, confidence 1.91 - confidence too low to rotate
+[2025-08-12 20:45:59,366] [INFO] [ocrmypdf._pipeline] page is facing ⇧, confidence 7.14 - no change
+[2025-08-12 20:46:03,281] [INFO] [ocrmypdf._pipelines.ocr] Postprocessing...
+[2025-08-12 20:46:10,230] [INFO] [ocrmypdf._pipeline] Image optimization ratio: 1.12 savings: 11.1%
+[2025-08-12 20:46:10,230] [INFO] [ocrmypdf._pipeline] Total file size ratio: 2.09 savings: 52.1%
+[2025-08-12 20:46:10,240] [INFO] [ocrmypdf._pipelines._common] Output file is a PDF/A-2B (as expected)
+[2025-08-12 20:46:14,311] [DEBUG] [paperless.parsing.tesseract] Using text from sidecar file
+[2025-08-12 20:46:14,319] [DEBUG] [paperless.consumer] Generating thumbnail for Buku Sakti Hacker (Efvy Zam) (Z-Library).pdf...
+[2025-08-12 20:46:14,323] [DEBUG] [paperless.parsing] Execute: convert -density 300 -scale 500x5000> -alpha remove -strip -auto-orient -define pdf:use-cropbox=true /tmp/paperless/paperless-4z_bcrkp/archive.pdf[0] /tmp/paperless/paperless-4z_bcrkp/convert.webp
+[2025-08-12 20:46:15,416] [INFO] [paperless.parsing] convert exited 0
+[2025-08-12 20:46:17,766] [DEBUG] [paperless.classifier] Document classification model does not exist (yet), not performing automatic matching.
+[2025-08-12 20:46:17,774] [DEBUG] [paperless.consumer] Saving record to database
+[2025-08-12 20:46:17,774] [DEBUG] [paperless.consumer] Creation date from parse_date: 1986-01-08 00:00:00+07:00
+[2025-08-12 20:46:18,188] [DEBUG] [paperless.consumer] Deleting file /tmp/paperless/paperless-ngx2ek96gqn/Buku Sakti Hacker (Efvy Zam) (Z-Library).pdf
+[2025-08-12 20:46:18,194] [DEBUG] [paperless.parsing.tesseract] Deleting directory /tmp/paperless/paperless-4z_bcrkp
+[2025-08-12 20:46:18,195] [INFO] [paperless.consumer] Document 1986-01-08 Buku Sakti Hacker (Efvy Zam) (Z-Library) consumption finished
+[2025-08-12 20:46:18,200] [INFO] [paperless.tasks] ConsumeTaskPlugin completed with: Success. New document id 1 created
+[2025-08-12 20:46:18,765] [DEBUG] [paperless.tasks] Executing plugin ConsumerPreflightPlugin
+[2025-08-12 20:46:18,775] [INFO] [paperless.tasks] ConsumerPreflightPlugin completed with no message
+[2025-08-12 20:46:18,775] [DEBUG] [paperless.tasks] Skipping plugin CollatePlugin
+[2025-08-12 20:46:18,777] [DEBUG] [paperless.tasks] Skipping plugin BarcodePlugin
+[2025-08-12 20:46:18,777] [DEBUG] [paperless.tasks] Executing plugin WorkflowTriggerPlugin
+[2025-08-12 20:46:18,780] [INFO] [paperless.tasks] WorkflowTriggerPlugin completed with: 
+[2025-08-12 20:46:18,780] [DEBUG] [paperless.tasks] Executing plugin ConsumeTaskPlugin
+[2025-08-12 20:46:18,780] [INFO] [paperless.consumer] Consuming AL MULK TOPOLOGY.drawio.pdf
+[2025-08-12 20:46:18,782] [DEBUG] [paperless.consumer] Detected mime type: application/pdf
+[2025-08-12 20:46:18,788] [DEBUG] [paperless.consumer] Parser: RasterisedDocumentParser
+[2025-08-12 20:46:18,791] [DEBUG] [paperless.consumer] Parsing AL MULK TOPOLOGY.drawio.pdf...
+[2025-08-12 20:46:18,813] [INFO] [paperless.parsing.tesseract] pdftotext exited 0
+[2025-08-12 20:46:19,138] [DEBUG] [paperless.parsing.tesseract] Calling OCRmyPDF with args: {'input_file': PosixPath('/tmp/paperless/paperless-ngxdgnvh51k/AL MULK TOPOLOGY.drawio.pdf'), 'output_file': PosixPath('/tmp/paperless/paperless-j7gstfep/archive.pdf'), 'use_threads': True, 'jobs': 2, 'language': 'eng', 'output_type': 'pdfa', 'progress_bar': False, 'color_conversion_strategy': 'RGB', 'skip_text': True, 'clean': True, 'deskew': True, 'rotate_pages': True, 'rotate_pages_threshold': 12.0, 'sidecar': PosixPath('/tmp/paperless/paperless-j7gstfep/sidecar.txt')}
+[2025-08-12 20:46:19,298] [INFO] [ocrmypdf._pipeline] skipping all processing on this page
+[2025-08-12 20:46:19,304] [INFO] [ocrmypdf._pipelines.ocr] Postprocessing...
+[2025-08-12 20:46:19,509] [INFO] [ocrmypdf._pipeline] Image optimization ratio: 1.00 savings: 0.4%
+[2025-08-12 20:46:19,509] [INFO] [ocrmypdf._pipeline] Total file size ratio: 0.99 savings: -0.6%
+[2025-08-12 20:46:19,511] [WARNING] [ocrmypdf._pipelines._common] Output file is a valid PDF, but conversion to PDF/A did not succeed (issue: No PDF/A metadata in XMP)
+[2025-08-12 20:46:19,512] [DEBUG] [paperless.parsing.tesseract] Incomplete sidecar file: discarding.
+[2025-08-12 20:46:19,537] [INFO] [paperless.parsing.tesseract] pdftotext exited 0
+[2025-08-12 20:46:19,538] [DEBUG] [paperless.consumer] Generating thumbnail for AL MULK TOPOLOGY.drawio.pdf...
+[2025-08-12 20:46:19,541] [DEBUG] [paperless.parsing] Execute: convert -density 300 -scale 500x5000> -alpha remove -strip -auto-orient -define pdf:use-cropbox=true /tmp/paperless/paperless-j7gstfep/archive.pdf[0] /tmp/paperless/paperless-j7gstfep/convert.webp
+[2025-08-12 20:46:20,546] [INFO] [paperless.parsing] convert exited 0
+[2025-08-12 20:46:20,551] [DEBUG] [paperless.classifier] Document classification model does not exist (yet), not performing automatic matching.
+[2025-08-12 20:46:20,554] [DEBUG] [paperless.consumer] Saving record to database
+[2025-08-12 20:46:20,555] [DEBUG] [paperless.consumer] Creation date from st_mtime: 2025-08-12 20:45:00+07:00
+[2025-08-12 20:46:20,649] [DEBUG] [paperless.consumer] Deleting file /tmp/paperless/paperless-ngxdgnvh51k/AL MULK TOPOLOGY.drawio.pdf
+[2025-08-12 20:46:20,651] [DEBUG] [paperless.parsing.tesseract] Deleting directory /tmp/paperless/paperless-j7gstfep
+[2025-08-12 20:46:20,651] [INFO] [paperless.consumer] Document 2025-08-12 AL MULK TOPOLOGY.drawio consumption finished
+[2025-08-12 20:46:20,655] [INFO] [paperless.tasks] ConsumeTaskPlugin completed with: Success. New document id 2 created
+[2025-08-12 20:47:01,217] [DEBUG] [paperless.classifier] Document classification model does not exist (yet), not performing automatic matching.
+[2025-08-12 20:47:45,076] [INFO] [_granian.asgi.io] ASGI transport error: SendError { .. }
+[2025-08-12 20:47:45,077] [INFO] [_granian.asgi.io] ASGI transport error: SendError { .. }
+[2025-08-12 20:49:44,106] [DEBUG] [paperless.tasks] Executing plugin ConsumerPreflightPlugin
+[2025-08-12 20:49:44,121] [INFO] [paperless.tasks] ConsumerPreflightPlugin completed with no message
+[2025-08-12 20:49:44,121] [DEBUG] [paperless.tasks] Skipping plugin CollatePlugin
+[2025-08-12 20:49:44,125] [DEBUG] [paperless.tasks] Skipping plugin BarcodePlugin
+[2025-08-12 20:49:44,125] [DEBUG] [paperless.tasks] Executing plugin WorkflowTriggerPlugin
+[2025-08-12 20:49:44,129] [INFO] [paperless.tasks] WorkflowTriggerPlugin completed with: 
+[2025-08-12 20:49:44,130] [DEBUG] [paperless.tasks] Executing plugin ConsumeTaskPlugin
+[2025-08-12 20:49:44,130] [INFO] [paperless.consumer] Consuming Bangkok Naked Now and Then (Jack Diamond) (Z-Library).pdf
+[2025-08-12 20:49:44,137] [DEBUG] [paperless.consumer] Detected mime type: application/pdf
+[2025-08-12 20:49:44,145] [DEBUG] [paperless.consumer] Parser: RasterisedDocumentParser
+[2025-08-12 20:49:44,148] [DEBUG] [paperless.consumer] Parsing Bangkok Naked Now and Then (Jack Diamond) (Z-Library).pdf...
+[2025-08-12 20:49:44,917] [INFO] [paperless.parsing.tesseract] pdftotext exited 0
+[2025-08-12 20:49:45,205] [DEBUG] [paperless.parsing.tesseract] Calling OCRmyPDF with args: {'input_file': PosixPath('/tmp/paperless/paperless-ngxhq9v3dou/Bangkok Naked Now and Then (Jack Diamond) (Z-Library).pdf'), 'output_file': PosixPath('/tmp/paperless/paperless-9zprc6t5/archive.pdf'), 'use_threads': True, 'jobs': 2, 'language': 'eng', 'output_type': 'pdfa', 'progress_bar': False, 'color_conversion_strategy': 'RGB', 'skip_text': True, 'clean': True, 'deskew': True, 'rotate_pages': True, 'rotate_pages_threshold': 12.0, 'sidecar': PosixPath('/tmp/paperless/paperless-9zprc6t5/sidecar.txt')}
+[2025-08-12 20:50:01,905] [INFO] [ocrmypdf._pipelines.ocr] Start processing 2 pages concurrently
+[2025-08-12 20:50:01,914] [INFO] [ocrmypdf._pipeline] skipping all processing on this page
+[2025-08-12 20:50:01,921] [INFO] [ocrmypdf._pipeline] skipping all processing on this page
+[2025-08-12 20:50:01,921] [INFO] [ocrmypdf._pipeline] skipping all processing on this page
+[2025-08-12 20:50:01,921] [INFO] [ocrmypdf._pipeline] skipping all processing on this page
+[2025-08-12 20:50:01,922] [INFO] [ocrmypdf._pipeline] skipping all processing on this page
+[2025-08-12 20:50:01,922] [INFO] [ocrmypdf._pipeline] skipping all processing on this page
+[2025-08-12 20:50:01,923] [INFO] [ocrmypdf._pipeline] skipping all processing on this page
+[2025-08-12 20:50:01,924] [INFO] [ocrmypdf._pipeline] skipping all processing on this page
+[2025-08-12 20:50:01,924] [INFO] [ocrmypdf._pipeline] skipping all processing on this page
+[2025-08-12 20:50:01,925] [INFO] [ocrmypdf._pipeline] skipping all processing on this page
+[2025-08-12 20:50:01,925] [INFO] [ocrmypdf._pipeline] skipping all processing on this page
+[2025-08-12 20:50:01,926] [INFO] [ocrmypdf._pipeline] skipping all processing on this page
+[2025-08-12 20:50:01,927] [INFO] [ocrmypdf._pipeline] skipping all processing on this page
+[2025-08-12 20:50:01,927] [INFO] [ocrmypdf._pipeline] skipping all processing on this page
+[2025-08-12 20:50:01,928] [INFO] [ocrmypdf._pipeline] skipping all processing on this page
+[2025-08-12 20:50:01,928] [INFO] [ocrmypdf._pipeline] skipping all processing on this page
+[2025-08-12 20:50:01,929] [INFO] [ocrmypdf._pipeline] skipping all processing on this page
+[2025-08-12 20:50:01,930] [INFO] [ocrmypdf._pipeline] skipping all processing on this page
+[2025-08-12 20:50:01,930] [INFO] [ocrmypdf._pipeline] skipping all processing on this page
+[2025-08-12 20:50:01,931] [INFO] [ocrmypdf._pipeline] skipping all processing on this page
+[2025-08-12 20:50:01,931] [INFO] [ocrmypdf._pipeline] skipping all processing on this page
+[2025-08-12 20:50:01,932] [INFO] [ocrmypdf._pipeline] skipping all processing on this page
+[2025-08-12 20:50:01,933] [INFO] [ocrmypdf._pipeline] skipping all processing on this page
+[2025-08-12 20:50:01,933] [INFO] [ocrmypdf._pipeline] skipping all processing on this page
+[2025-08-12 20:50:01,934] [INFO] [ocrmypdf._pipeline] skipping all processing on this page
+[2025-08-12 20:50:01,934] [INFO] [ocrmypdf._pipeline] skipping all processing on this page
+[2025-08-12 20:50:01,935] [INFO] [ocrmypdf._pipeline] skipping all processing on this page
+[2025-08-12 20:50:01,936] [INFO] [ocrmypdf._pipeline] skipping all processing on this page
+[2025-08-12 20:50:01,936] [INFO] [ocrmypdf._pipeline] skipping all processing on this page
+[2025-08-12 20:50:01,937] [INFO] [ocrmypdf._pipeline] skipping all processing on this page
+[2025-08-12 20:50:01,937] [INFO] [ocrmypdf._pipeline] skipping all processing on this page
+[2025-08-12 20:50:01,938] [INFO] [ocrmypdf._pipeline] skipping all processing on this page
+[2025-08-12 20:50:01,938] [INFO] [ocrmypdf._pipeline] skipping all processing on this page
+[2025-08-12 20:50:01,939] [INFO] [ocrmypdf._pipeline] skipping all processing on this page
+[2025-08-12 20:50:01,939] [INFO] [ocrmypdf._pipeline] skipping all processing on this page
+[2025-08-12 20:50:01,940] [INFO] [ocrmypdf._pipeline] skipping all processing on this page
+[2025-08-12 20:50:01,941] [INFO] [ocrmypdf._pipeline] skipping all processing on this page
+[2025-08-12 20:50:01,941] [INFO] [ocrmypdf._pipeline] skipping all processing on this page
+[2025-08-12 20:50:01,942] [INFO] [ocrmypdf._pipeline] skipping all processing on this page
+[2025-08-12 20:50:01,942] [INFO] [ocrmypdf._pipeline] skipping all processing on this page
+[2025-08-12 20:50:01,943] [INFO] [ocrmypdf._pipeline] skipping all processing on this page
+[2025-08-12 20:50:01,943] [INFO] [ocrmypdf._pipeline] skipping all processing on this page
+[2025-08-12 20:50:01,944] [INFO] [ocrmypdf._pipeline] skipping all processing on this page
+[2025-08-12 20:50:01,945] [INFO] [ocrmypdf._pipeline] skipping all processing on this page
+[2025-08-12 20:50:01,945] [INFO] [ocrmypdf._pipeline] skipping all processing on this page
+[2025-08-12 20:50:01,946] [INFO] [ocrmypdf._pipeline] skipping all processing on this page
+[2025-08-12 20:50:01,946] [INFO] [ocrmypdf._pipeline] skipping all processing on this page
+[2025-08-12 20:50:01,947] [INFO] [ocrmypdf._pipeline] skipping all processing on this page
+[2025-08-12 20:50:01,948] [INFO] [ocrmypdf._pipeline] skipping all processing on this page
+[2025-08-12 20:50:01,948] [INFO] [ocrmypdf._pipeline] skipping all processing on this page
+[2025-08-12 20:50:01,949] [INFO] [ocrmypdf._pipeline] skipping all processing on this page
+[2025-08-12 20:50:01,950] [INFO] [ocrmypdf._pipeline] skipping all processing on this page
+[2025-08-12 20:50:01,950] [INFO] [ocrmypdf._pipeline] skipping all processing on this page
+[2025-08-12 20:50:01,951] [INFO] [ocrmypdf._pipeline] skipping all processing on this page
+[2025-08-12 20:50:01,951] [INFO] [ocrmypdf._pipeline] skipping all processing on this page
+[2025-08-12 20:50:01,952] [INFO] [ocrmypdf._pipeline] skipping all processing on this page
+[2025-08-12 20:50:01,953] [INFO] [ocrmypdf._pipeline] skipping all processing on this page
+[2025-08-12 20:50:01,953] [INFO] [ocrmypdf._pipeline] skipping all processing on this page
+[2025-08-12 20:50:01,954] [INFO] [ocrmypdf._pipeline] skipping all processing on this page
+[2025-08-12 20:50:01,954] [INFO] [ocrmypdf._pipeline] skipping all processing on this page
+[2025-08-12 20:50:01,955] [INFO] [ocrmypdf._pipeline] skipping all processing on this page
+[2025-08-12 20:50:01,955] [INFO] [ocrmypdf._pipeline] skipping all processing on this page
+[2025-08-12 20:50:01,956] [INFO] [ocrmypdf._pipeline] skipping all processing on this page
+[2025-08-12 20:50:01,957] [INFO] [ocrmypdf._pipeline] skipping all processing on this page
+[2025-08-12 20:50:01,957] [INFO] [ocrmypdf._pipeline] skipping all processing on this page
+[2025-08-12 20:50:01,958] [INFO] [ocrmypdf._pipeline] skipping all processing on this page
+[2025-08-12 20:50:01,958] [INFO] [ocrmypdf._pipeline] skipping all processing on this page
+[2025-08-12 20:50:01,959] [INFO] [ocrmypdf._pipeline] skipping all processing on this page
+[2025-08-12 20:50:01,959] [INFO] [ocrmypdf._pipeline] skipping all processing on this page
+[2025-08-12 20:50:01,960] [INFO] [ocrmypdf._pipeline] skipping all processing on this page
+[2025-08-12 20:50:01,960] [INFO] [ocrmypdf._pipeline] skipping all processing on this page
+[2025-08-12 20:50:01,961] [INFO] [ocrmypdf._pipeline] skipping all processing on this page
+[2025-08-12 20:50:01,962] [INFO] [ocrmypdf._pipeline] skipping all processing on this page
+[2025-08-12 20:50:01,962] [INFO] [ocrmypdf._pipeline] skipping all processing on this page
+[2025-08-12 20:50:01,963] [INFO] [ocrmypdf._pipeline] skipping all processing on this page
+[2025-08-12 20:50:01,963] [INFO] [ocrmypdf._pipeline] skipping all processing on this page
+[2025-08-12 20:50:01,964] [INFO] [ocrmypdf._pipeline] skipping all processing on this page
+[2025-08-12 20:50:01,964] [INFO] [ocrmypdf._pipeline] skipping all processing on this page
+[2025-08-12 20:50:01,965] [INFO] [ocrmypdf._pipeline] skipping all processing on this page
+[2025-08-12 20:50:01,966] [INFO] [ocrmypdf._pipeline] skipping all processing on this page
+[2025-08-12 20:50:01,966] [INFO] [ocrmypdf._pipeline] skipping all processing on this page
+[2025-08-12 20:50:01,967] [INFO] [ocrmypdf._pipeline] skipping all processing on this page
+[2025-08-12 20:50:01,967] [INFO] [ocrmypdf._pipeline] skipping all processing on this page
+[2025-08-12 20:50:01,968] [INFO] [ocrmypdf._pipeline] skipping all processing on this page
+[2025-08-12 20:50:01,968] [INFO] [ocrmypdf._pipeline] skipping all processing on this page
+[2025-08-12 20:50:01,969] [INFO] [ocrmypdf._pipeline] skipping all processing on this page
+[2025-08-12 20:50:01,969] [INFO] [ocrmypdf._pipeline] skipping all processing on this page
+[2025-08-12 20:50:01,970] [INFO] [ocrmypdf._pipeline] skipping all processing on this page
+[2025-08-12 20:50:01,970] [INFO] [ocrmypdf._pipeline] skipping all processing on this page
+[2025-08-12 20:50:01,971] [INFO] [ocrmypdf._pipeline] skipping all processing on this page
+[2025-08-12 20:50:01,972] [INFO] [ocrmypdf._pipeline] skipping all processing on this page
+[2025-08-12 20:50:01,972] [INFO] [ocrmypdf._pipeline] skipping all processing on this page
+[2025-08-12 20:50:01,973] [INFO] [ocrmypdf._pipeline] skipping all processing on this page
+[2025-08-12 20:50:01,973] [INFO] [ocrmypdf._pipeline] skipping all processing on this page
+[2025-08-12 20:50:01,974] [INFO] [ocrmypdf._pipeline] skipping all processing on this page
+[2025-08-12 20:50:01,974] [INFO] [ocrmypdf._pipeline] skipping all processing on this page
+[2025-08-12 20:50:01,975] [INFO] [ocrmypdf._pipeline] skipping all processing on this page
+[2025-08-12 20:50:01,975] [INFO] [ocrmypdf._pipeline] skipping all processing on this page
+[2025-08-12 20:50:01,976] [INFO] [ocrmypdf._pipeline] skipping all processing on this page
+[2025-08-12 20:50:01,976] [INFO] [ocrmypdf._pipeline] skipping all processing on this page
+[2025-08-12 20:50:01,977] [INFO] [ocrmypdf._pipeline] skipping all processing on this page
+[2025-08-12 20:50:01,977] [INFO] [ocrmypdf._pipeline] skipping all processing on this page
+[2025-08-12 20:50:01,978] [INFO] [ocrmypdf._pipeline] skipping all processing on this page
+[2025-08-12 20:50:01,978] [INFO] [ocrmypdf._pipeline] skipping all processing on this page
+[2025-08-12 20:50:01,979] [INFO] [ocrmypdf._pipeline] skipping all processing on this page
+[2025-08-12 20:50:01,979] [INFO] [ocrmypdf._pipeline] skipping all processing on this page
+[2025-08-12 20:50:01,980] [INFO] [ocrmypdf._pipeline] skipping all processing on this page
+[2025-08-12 20:50:01,981] [INFO] [ocrmypdf._pipeline] skipping all processing on this page
+[2025-08-12 20:50:01,981] [INFO] [ocrmypdf._pipeline] skipping all processing on this page
+[2025-08-12 20:50:01,982] [INFO] [ocrmypdf._pipeline] skipping all processing on this page
+[2025-08-12 20:50:01,982] [INFO] [ocrmypdf._pipeline] skipping all processing on this page
+[2025-08-12 20:50:01,983] [INFO] [ocrmypdf._pipeline] skipping all processing on this page
+[2025-08-12 20:50:01,984] [INFO] [ocrmypdf._pipeline] skipping all processing on this page
+[2025-08-12 20:50:01,984] [INFO] [ocrmypdf._pipeline] skipping all processing on this page
+[2025-08-12 20:50:01,986] [INFO] [ocrmypdf._pipeline] skipping all processing on this page
+[2025-08-12 20:50:01,987] [INFO] [ocrmypdf._pipeline] skipping all processing on this page
+[2025-08-12 20:50:01,988] [INFO] [ocrmypdf._pipeline] skipping all processing on this page
+[2025-08-12 20:50:01,988] [INFO] [ocrmypdf._pipeline] skipping all processing on this page
+[2025-08-12 20:50:01,989] [INFO] [ocrmypdf._pipeline] skipping all processing on this page
+[2025-08-12 20:50:01,989] [INFO] [ocrmypdf._pipeline] skipping all processing on this page
+[2025-08-12 20:50:01,990] [INFO] [ocrmypdf._pipeline] skipping all processing on this page
+[2025-08-12 20:50:01,991] [INFO] [ocrmypdf._pipeline] skipping all processing on this page
+[2025-08-12 20:50:01,991] [INFO] [ocrmypdf._pipeline] skipping all processing on this page
+[2025-08-12 20:50:01,992] [INFO] [ocrmypdf._pipeline] skipping all processing on this page
+[2025-08-12 20:50:01,992] [INFO] [ocrmypdf._pipeline] skipping all processing on this page
+[2025-08-12 20:50:01,993] [INFO] [ocrmypdf._pipeline] skipping all processing on this page
+[2025-08-12 20:50:01,993] [INFO] [ocrmypdf._pipeline] skipping all processing on this page
+[2025-08-12 20:50:01,994] [INFO] [ocrmypdf._pipeline] skipping all processing on this page
+[2025-08-12 20:50:01,994] [INFO] [ocrmypdf._pipeline] skipping all processing on this page
+[2025-08-12 20:50:01,995] [INFO] [ocrmypdf._pipeline] skipping all processing on this page
+[2025-08-12 20:50:01,996] [INFO] [ocrmypdf._pipeline] skipping all processing on this page
+[2025-08-12 20:50:01,996] [INFO] [ocrmypdf._pipeline] skipping all processing on this page
+[2025-08-12 20:50:01,997] [INFO] [ocrmypdf._pipeline] skipping all processing on this page
+[2025-08-12 20:50:01,997] [INFO] [ocrmypdf._pipeline] skipping all processing on this page
+[2025-08-12 20:50:01,998] [INFO] [ocrmypdf._pipeline] skipping all processing on this page
+[2025-08-12 20:50:01,998] [INFO] [ocrmypdf._pipeline] skipping all processing on this page
+[2025-08-12 20:50:01,999] [INFO] [ocrmypdf._pipeline] skipping all processing on this page
+[2025-08-12 20:50:01,999] [INFO] [ocrmypdf._pipeline] skipping all processing on this page
+[2025-08-12 20:50:02,000] [INFO] [ocrmypdf._pipeline] skipping all processing on this page
+[2025-08-12 20:50:02,000] [INFO] [ocrmypdf._pipeline] skipping all processing on this page
+[2025-08-12 20:50:02,001] [INFO] [ocrmypdf._pipeline] skipping all processing on this page
+[2025-08-12 20:50:02,001] [INFO] [ocrmypdf._pipeline] skipping all processing on this page
+[2025-08-12 20:50:02,002] [INFO] [ocrmypdf._pipeline] skipping all processing on this page
+[2025-08-12 20:50:02,002] [INFO] [ocrmypdf._pipeline] skipping all processing on this page
+[2025-08-12 20:50:02,003] [INFO] [ocrmypdf._pipeline] skipping all processing on this page
+[2025-08-12 20:50:02,003] [INFO] [ocrmypdf._pipeline] skipping all processing on this page
+[2025-08-12 20:50:02,004] [INFO] [ocrmypdf._pipeline] skipping all processing on this page
+[2025-08-12 20:50:02,004] [INFO] [ocrmypdf._pipeline] skipping all processing on this page
+[2025-08-12 20:50:02,005] [INFO] [ocrmypdf._pipeline] skipping all processing on this page
+[2025-08-12 20:50:02,006] [INFO] [ocrmypdf._pipeline] skipping all processing on this page
+[2025-08-12 20:50:02,006] [INFO] [ocrmypdf._pipeline] skipping all processing on this page
+[2025-08-12 20:50:02,006] [INFO] [ocrmypdf._pipeline] skipping all processing on this page
+[2025-08-12 20:50:02,007] [INFO] [ocrmypdf._pipeline] skipping all processing on this page
+[2025-08-12 20:50:02,007] [INFO] [ocrmypdf._pipeline] skipping all processing on this page
+[2025-08-12 20:50:02,008] [INFO] [ocrmypdf._pipeline] skipping all processing on this page
+[2025-08-12 20:50:02,008] [INFO] [ocrmypdf._pipeline] skipping all processing on this page
+[2025-08-12 20:50:02,009] [INFO] [ocrmypdf._pipeline] skipping all processing on this page
+[2025-08-12 20:50:02,009] [INFO] [ocrmypdf._pipeline] skipping all processing on this page
+[2025-08-12 20:50:02,010] [INFO] [ocrmypdf._pipeline] skipping all processing on this page
+[2025-08-12 20:50:02,010] [INFO] [ocrmypdf._pipeline] skipping all processing on this page
+[2025-08-12 20:50:02,011] [INFO] [ocrmypdf._pipeline] skipping all processing on this page
+[2025-08-12 20:50:02,011] [INFO] [ocrmypdf._pipeline] skipping all processing on this page
+[2025-08-12 20:50:02,012] [INFO] [ocrmypdf._pipeline] skipping all processing on this page
+[2025-08-12 20:50:02,012] [INFO] [ocrmypdf._pipeline] skipping all processing on this page
+[2025-08-12 20:50:02,012] [INFO] [ocrmypdf._pipeline] skipping all processing on this page
+[2025-08-12 20:50:02,013] [INFO] [ocrmypdf._pipeline] skipping all processing on this page
+[2025-08-12 20:50:02,013] [INFO] [ocrmypdf._pipeline] skipping all processing on this page
+[2025-08-12 20:50:02,014] [INFO] [ocrmypdf._pipeline] skipping all processing on this page
+[2025-08-12 20:50:02,014] [INFO] [ocrmypdf._pipeline] skipping all processing on this page
+[2025-08-12 20:50:02,015] [INFO] [ocrmypdf._pipeline] skipping all processing on this page
+[2025-08-12 20:50:02,015] [INFO] [ocrmypdf._pipeline] skipping all processing on this page
+[2025-08-12 20:50:02,016] [INFO] [ocrmypdf._pipeline] skipping all processing on this page
+[2025-08-12 20:50:02,016] [INFO] [ocrmypdf._pipeline] skipping all processing on this page
+[2025-08-12 20:50:02,017] [INFO] [ocrmypdf._pipeline] skipping all processing on this page
+[2025-08-12 20:50:02,017] [INFO] [ocrmypdf._pipeline] skipping all processing on this page
+[2025-08-12 20:50:02,018] [INFO] [ocrmypdf._pipeline] skipping all processing on this page
+[2025-08-12 20:50:02,018] [INFO] [ocrmypdf._pipeline] skipping all processing on this page
+[2025-08-12 20:50:02,019] [INFO] [ocrmypdf._pipeline] skipping all processing on this page
+[2025-08-12 20:50:02,019] [INFO] [ocrmypdf._pipeline] skipping all processing on this page
+[2025-08-12 20:50:02,020] [INFO] [ocrmypdf._pipeline] skipping all processing on this page
+[2025-08-12 20:50:02,020] [INFO] [ocrmypdf._pipeline] skipping all processing on this page
+[2025-08-12 20:50:02,021] [INFO] [ocrmypdf._pipeline] skipping all processing on this page
+[2025-08-12 20:50:02,021] [INFO] [ocrmypdf._pipeline] skipping all processing on this page
+[2025-08-12 20:50:02,022] [INFO] [ocrmypdf._pipeline] skipping all processing on this page
+[2025-08-12 20:50:02,022] [INFO] [ocrmypdf._pipeline] skipping all processing on this page
+[2025-08-12 20:50:02,023] [INFO] [ocrmypdf._pipeline] skipping all processing on this page
+[2025-08-12 20:50:02,023] [INFO] [ocrmypdf._pipeline] skipping all processing on this page
+[2025-08-12 20:50:02,024] [INFO] [ocrmypdf._pipeline] skipping all processing on this page
+[2025-08-12 20:50:02,024] [INFO] [ocrmypdf._pipeline] skipping all processing on this page
+[2025-08-12 20:50:02,025] [INFO] [ocrmypdf._pipeline] skipping all processing on this page
+[2025-08-12 20:50:02,025] [INFO] [ocrmypdf._pipeline] skipping all processing on this page
+[2025-08-12 20:50:02,026] [INFO] [ocrmypdf._pipeline] skipping all processing on this page
+[2025-08-12 20:50:02,027] [INFO] [ocrmypdf._pipeline] skipping all processing on this page
+[2025-08-12 20:50:02,027] [INFO] [ocrmypdf._pipeline] skipping all processing on this page
+[2025-08-12 20:50:02,027] [INFO] [ocrmypdf._pipeline] skipping all processing on this page
+[2025-08-12 20:50:02,028] [INFO] [ocrmypdf._pipeline] skipping all processing on this page
+[2025-08-12 20:50:02,028] [INFO] [ocrmypdf._pipeline] skipping all processing on this page
+[2025-08-12 20:50:02,029] [INFO] [ocrmypdf._pipeline] skipping all processing on this page
+[2025-08-12 20:50:02,029] [INFO] [ocrmypdf._pipeline] skipping all processing on this page
+[2025-08-12 20:50:02,030] [INFO] [ocrmypdf._pipeline] skipping all processing on this page
+[2025-08-12 20:50:02,030] [INFO] [ocrmypdf._pipeline] skipping all processing on this page
+[2025-08-12 20:50:02,031] [INFO] [ocrmypdf._pipeline] skipping all processing on this page
+[2025-08-12 20:50:02,031] [INFO] [ocrmypdf._pipeline] skipping all processing on this page
+[2025-08-12 20:50:02,032] [INFO] [ocrmypdf._pipeline] skipping all processing on this page
+[2025-08-12 20:50:02,032] [INFO] [ocrmypdf._pipeline] skipping all processing on this page
+[2025-08-12 20:50:02,033] [INFO] [ocrmypdf._pipeline] skipping all processing on this page
+[2025-08-12 20:50:02,033] [INFO] [ocrmypdf._pipeline] skipping all processing on this page
+[2025-08-12 20:50:02,034] [INFO] [ocrmypdf._pipeline] skipping all processing on this page
+[2025-08-12 20:50:02,034] [INFO] [ocrmypdf._pipeline] skipping all processing on this page
+[2025-08-12 20:50:02,035] [INFO] [ocrmypdf._pipeline] skipping all processing on this page
+[2025-08-12 20:50:02,035] [INFO] [ocrmypdf._pipeline] skipping all processing on this page
+[2025-08-12 20:50:02,035] [INFO] [ocrmypdf._pipeline] skipping all processing on this page
+[2025-08-12 20:50:02,036] [INFO] [ocrmypdf._pipeline] skipping all processing on this page
+[2025-08-12 20:50:02,036] [INFO] [ocrmypdf._pipeline] skipping all processing on this page
+[2025-08-12 20:50:02,037] [INFO] [ocrmypdf._pipeline] skipping all processing on this page
+[2025-08-12 20:50:02,037] [INFO] [ocrmypdf._pipeline] skipping all processing on this page
+[2025-08-12 20:50:02,038] [INFO] [ocrmypdf._pipeline] skipping all processing on this page
+[2025-08-12 20:50:02,038] [INFO] [ocrmypdf._pipeline] skipping all processing on this page
+[2025-08-12 20:50:02,039] [INFO] [ocrmypdf._pipeline] skipping all processing on this page
+[2025-08-12 20:50:02,039] [INFO] [ocrmypdf._pipeline] skipping all processing on this page
+[2025-08-12 20:50:02,040] [INFO] [ocrmypdf._pipeline] skipping all processing on this page
+[2025-08-12 20:50:02,040] [INFO] [ocrmypdf._pipeline] skipping all processing on this page
+[2025-08-12 20:50:02,041] [INFO] [ocrmypdf._pipeline] skipping all processing on this page
+[2025-08-12 20:50:02,041] [INFO] [ocrmypdf._pipeline] skipping all processing on this page
+[2025-08-12 20:50:02,041] [INFO] [ocrmypdf._pipeline] skipping all processing on this page
+[2025-08-12 20:50:02,042] [INFO] [ocrmypdf._pipeline] skipping all processing on this page
+[2025-08-12 20:50:02,042] [INFO] [ocrmypdf._pipeline] skipping all processing on this page
+[2025-08-12 20:50:02,043] [INFO] [ocrmypdf._pipeline] skipping all processing on this page
+[2025-08-12 20:50:02,043] [INFO] [ocrmypdf._pipeline] skipping all processing on this page
+[2025-08-12 20:50:02,044] [INFO] [ocrmypdf._pipeline] skipping all processing on this page
+[2025-08-12 20:50:02,044] [INFO] [ocrmypdf._pipeline] skipping all processing on this page
+[2025-08-12 20:50:02,045] [INFO] [ocrmypdf._pipeline] skipping all processing on this page
+[2025-08-12 20:50:02,045] [INFO] [ocrmypdf._pipeline] skipping all processing on this page
+[2025-08-12 20:50:02,046] [INFO] [ocrmypdf._pipeline] skipping all processing on this page
+[2025-08-12 20:50:02,046] [INFO] [ocrmypdf._pipeline] skipping all processing on this page
+[2025-08-12 20:50:02,047] [INFO] [ocrmypdf._pipeline] skipping all processing on this page
+[2025-08-12 20:50:02,047] [INFO] [ocrmypdf._pipeline] skipping all processing on this page
+[2025-08-12 20:50:02,047] [INFO] [ocrmypdf._pipeline] skipping all processing on this page
+[2025-08-12 20:50:02,048] [INFO] [ocrmypdf._pipeline] skipping all processing on this page
+[2025-08-12 20:50:02,049] [INFO] [ocrmypdf._pipeline] skipping all processing on this page
+[2025-08-12 20:50:02,049] [INFO] [ocrmypdf._pipeline] skipping all processing on this page
+[2025-08-12 20:50:02,049] [INFO] [ocrmypdf._pipeline] skipping all processing on this page
+[2025-08-12 20:50:02,050] [INFO] [ocrmypdf._pipeline] skipping all processing on this page
+[2025-08-12 20:50:02,051] [INFO] [ocrmypdf._pipeline] skipping all processing on this page
+[2025-08-12 20:50:02,052] [INFO] [ocrmypdf._pipeline] skipping all processing on this page
+[2025-08-12 20:50:02,052] [INFO] [ocrmypdf._pipeline] skipping all processing on this page
+[2025-08-12 20:50:02,052] [INFO] [ocrmypdf._pipeline] skipping all processing on this page
+[2025-08-12 20:50:02,053] [INFO] [ocrmypdf._pipeline] skipping all processing on this page
+[2025-08-12 20:50:02,054] [INFO] [ocrmypdf._pipeline] skipping all processing on this page
+[2025-08-12 20:50:02,054] [INFO] [ocrmypdf._pipeline] skipping all processing on this page
+[2025-08-12 20:50:02,054] [INFO] [ocrmypdf._pipeline] skipping all processing on this page
+[2025-08-12 20:50:02,055] [INFO] [ocrmypdf._pipeline] skipping all processing on this page
+[2025-08-12 20:50:02,056] [INFO] [ocrmypdf._pipeline] skipping all processing on this page
+[2025-08-12 20:50:02,056] [INFO] [ocrmypdf._pipeline] skipping all processing on this page
+[2025-08-12 20:50:02,057] [INFO] [ocrmypdf._pipeline] skipping all processing on this page
+[2025-08-12 20:50:02,057] [INFO] [ocrmypdf._pipeline] skipping all processing on this page
+[2025-08-12 20:50:02,058] [INFO] [ocrmypdf._pipeline] skipping all processing on this page
+[2025-08-12 20:50:02,058] [INFO] [ocrmypdf._pipeline] skipping all processing on this page
+[2025-08-12 20:50:02,059] [INFO] [ocrmypdf._pipeline] skipping all processing on this page
+[2025-08-12 20:50:02,059] [INFO] [ocrmypdf._pipeline] skipping all processing on this page
+[2025-08-12 20:50:02,060] [INFO] [ocrmypdf._pipeline] skipping all processing on this page
+[2025-08-12 20:50:02,060] [INFO] [ocrmypdf._pipeline] skipping all processing on this page
+[2025-08-12 20:50:02,061] [INFO] [ocrmypdf._pipeline] skipping all processing on this page
+[2025-08-12 20:50:02,061] [INFO] [ocrmypdf._pipeline] skipping all processing on this page
+[2025-08-12 20:50:02,061] [INFO] [ocrmypdf._pipeline] skipping all processing on this page
+[2025-08-12 20:50:02,062] [INFO] [ocrmypdf._pipeline] skipping all processing on this page
+[2025-08-12 20:50:02,062] [INFO] [ocrmypdf._pipeline] skipping all processing on this page
+[2025-08-12 20:50:02,063] [INFO] [ocrmypdf._pipeline] skipping all processing on this page
+[2025-08-12 20:50:02,063] [INFO] [ocrmypdf._pipeline] skipping all processing on this page
+[2025-08-12 20:50:02,064] [INFO] [ocrmypdf._pipeline] skipping all processing on this page
+[2025-08-12 20:50:02,064] [INFO] [ocrmypdf._pipeline] skipping all processing on this page
+[2025-08-12 20:50:02,065] [INFO] [ocrmypdf._pipeline] skipping all processing on this page
+[2025-08-12 20:50:02,065] [INFO] [ocrmypdf._pipeline] skipping all processing on this page
+[2025-08-12 20:50:02,066] [INFO] [ocrmypdf._pipeline] skipping all processing on this page
+[2025-08-12 20:50:02,066] [INFO] [ocrmypdf._pipeline] skipping all processing on this page
+[2025-08-12 20:50:02,067] [INFO] [ocrmypdf._pipeline] skipping all processing on this page
+[2025-08-12 20:50:02,067] [INFO] [ocrmypdf._pipeline] skipping all processing on this page
+[2025-08-12 20:50:02,068] [INFO] [ocrmypdf._pipeline] skipping all processing on this page
+[2025-08-12 20:50:02,068] [INFO] [ocrmypdf._pipeline] skipping all processing on this page
+[2025-08-12 20:50:02,069] [INFO] [ocrmypdf._pipeline] skipping all processing on this page
+[2025-08-12 20:50:02,070] [INFO] [ocrmypdf._pipeline] skipping all processing on this page
+[2025-08-12 20:50:02,070] [INFO] [ocrmypdf._pipeline] skipping all processing on this page
+[2025-08-12 20:50:02,070] [INFO] [ocrmypdf._pipeline] skipping all processing on this page
+[2025-08-12 20:50:02,071] [INFO] [ocrmypdf._pipeline] skipping all processing on this page
+[2025-08-12 20:50:02,071] [INFO] [ocrmypdf._pipeline] skipping all processing on this page
+[2025-08-12 20:50:02,072] [INFO] [ocrmypdf._pipeline] skipping all processing on this page
+[2025-08-12 20:50:02,072] [INFO] [ocrmypdf._pipeline] skipping all processing on this page
+[2025-08-12 20:50:02,073] [INFO] [ocrmypdf._pipeline] skipping all processing on this page
+[2025-08-12 20:50:02,073] [INFO] [ocrmypdf._pipeline] skipping all processing on this page
+[2025-08-12 20:50:02,074] [INFO] [ocrmypdf._pipeline] skipping all processing on this page
+[2025-08-12 20:50:02,074] [INFO] [ocrmypdf._pipeline] skipping all processing on this page
+[2025-08-12 20:50:02,075] [INFO] [ocrmypdf._pipeline] skipping all processing on this page
+[2025-08-12 20:50:02,075] [INFO] [ocrmypdf._pipeline] skipping all processing on this page
+[2025-08-12 20:50:02,076] [INFO] [ocrmypdf._pipeline] skipping all processing on this page
+[2025-08-12 20:50:02,076] [INFO] [ocrmypdf._pipeline] skipping all processing on this page
+[2025-08-12 20:50:02,077] [INFO] [ocrmypdf._pipeline] skipping all processing on this page
+[2025-08-12 20:50:02,077] [INFO] [ocrmypdf._pipeline] skipping all processing on this page
+[2025-08-12 20:50:02,078] [INFO] [ocrmypdf._pipeline] skipping all processing on this page
+[2025-08-12 20:50:02,078] [INFO] [ocrmypdf._pipeline] skipping all processing on this page
+[2025-08-12 20:50:02,079] [INFO] [ocrmypdf._pipeline] skipping all processing on this page
+[2025-08-12 20:50:02,079] [INFO] [ocrmypdf._pipeline] skipping all processing on this page
+[2025-08-12 20:50:02,080] [INFO] [ocrmypdf._pipeline] skipping all processing on this page
+[2025-08-12 20:50:02,080] [INFO] [ocrmypdf._pipeline] skipping all processing on this page
+[2025-08-12 20:50:02,081] [INFO] [ocrmypdf._pipeline] skipping all processing on this page
+[2025-08-12 20:50:02,081] [INFO] [ocrmypdf._pipeline] skipping all processing on this page
+[2025-08-12 20:50:02,082] [INFO] [ocrmypdf._pipeline] skipping all processing on this page
+[2025-08-12 20:50:02,082] [INFO] [ocrmypdf._pipeline] skipping all processing on this page
+[2025-08-12 20:50:02,083] [INFO] [ocrmypdf._pipeline] skipping all processing on this page
+[2025-08-12 20:50:02,083] [INFO] [ocrmypdf._pipeline] skipping all processing on this page
+[2025-08-12 20:50:02,084] [INFO] [ocrmypdf._pipeline] skipping all processing on this page
+[2025-08-12 20:50:02,084] [INFO] [ocrmypdf._pipeline] skipping all processing on this page
+[2025-08-12 20:50:02,085] [INFO] [ocrmypdf._pipeline] skipping all processing on this page
+[2025-08-12 20:50:02,085] [INFO] [ocrmypdf._pipeline] skipping all processing on this page
+[2025-08-12 20:50:02,086] [INFO] [ocrmypdf._pipeline] skipping all processing on this page
+[2025-08-12 20:50:02,086] [INFO] [ocrmypdf._pipeline] skipping all processing on this page
+[2025-08-12 20:50:02,087] [INFO] [ocrmypdf._pipeline] skipping all processing on this page
+[2025-08-12 20:50:02,087] [INFO] [ocrmypdf._pipeline] skipping all processing on this page
+[2025-08-12 20:50:02,088] [INFO] [ocrmypdf._pipeline] skipping all processing on this page
+[2025-08-12 20:50:02,088] [INFO] [ocrmypdf._pipeline] skipping all processing on this page
+[2025-08-12 20:50:02,089] [INFO] [ocrmypdf._pipeline] skipping all processing on this page
+[2025-08-12 20:50:02,089] [INFO] [ocrmypdf._pipeline] skipping all processing on this page
+[2025-08-12 20:50:02,090] [INFO] [ocrmypdf._pipeline] skipping all processing on this page
+[2025-08-12 20:50:02,090] [INFO] [ocrmypdf._pipeline] skipping all processing on this page
+[2025-08-12 20:50:02,091] [INFO] [ocrmypdf._pipeline] skipping all processing on this page
+[2025-08-12 20:50:02,091] [INFO] [ocrmypdf._pipeline] skipping all processing on this page
+[2025-08-12 20:50:02,092] [INFO] [ocrmypdf._pipeline] skipping all processing on this page
+[2025-08-12 20:50:02,092] [INFO] [ocrmypdf._pipeline] skipping all processing on this page
+[2025-08-12 20:50:02,093] [INFO] [ocrmypdf._pipeline] skipping all processing on this page
+[2025-08-12 20:50:02,093] [INFO] [ocrmypdf._pipeline] skipping all processing on this page
+[2025-08-12 20:50:02,094] [INFO] [ocrmypdf._pipeline] skipping all processing on this page
+[2025-08-12 20:50:02,094] [INFO] [ocrmypdf._pipeline] skipping all processing on this page
+[2025-08-12 20:50:02,095] [INFO] [ocrmypdf._pipeline] skipping all processing on this page
+[2025-08-12 20:50:02,095] [INFO] [ocrmypdf._pipeline] skipping all processing on this page
+[2025-08-12 20:50:02,095] [INFO] [ocrmypdf._pipeline] skipping all processing on this page
+[2025-08-12 20:50:02,096] [INFO] [ocrmypdf._pipeline] skipping all processing on this page
+[2025-08-12 20:50:02,096] [INFO] [ocrmypdf._pipeline] skipping all processing on this page
+[2025-08-12 20:50:02,097] [INFO] [ocrmypdf._pipeline] skipping all processing on this page
+[2025-08-12 20:50:02,097] [INFO] [ocrmypdf._pipeline] skipping all processing on this page
+[2025-08-12 20:50:02,098] [INFO] [ocrmypdf._pipeline] skipping all processing on this page
+[2025-08-12 20:50:02,098] [INFO] [ocrmypdf._pipeline] skipping all processing on this page
+[2025-08-12 20:50:02,099] [INFO] [ocrmypdf._pipeline] skipping all processing on this page
+[2025-08-12 20:50:02,099] [INFO] [ocrmypdf._pipeline] skipping all processing on this page
+[2025-08-12 20:50:02,100] [INFO] [ocrmypdf._pipeline] skipping all processing on this page
+[2025-08-12 20:50:02,100] [INFO] [ocrmypdf._pipeline] skipping all processing on this page
+[2025-08-12 20:50:02,101] [INFO] [ocrmypdf._pipeline] skipping all processing on this page
+[2025-08-12 20:50:02,101] [INFO] [ocrmypdf._pipeline] skipping all processing on this page
+[2025-08-12 20:50:02,103] [INFO] [ocrmypdf._pipeline] skipping all processing on this page
+[2025-08-12 20:50:02,104] [INFO] [ocrmypdf._pipeline] skipping all processing on this page
+[2025-08-12 20:50:02,104] [INFO] [ocrmypdf._pipeline] skipping all processing on this page
+[2025-08-12 20:50:02,105] [INFO] [ocrmypdf._pipeline] skipping all processing on this page
+[2025-08-12 20:50:02,105] [INFO] [ocrmypdf._pipeline] skipping all processing on this page
+[2025-08-12 20:50:02,106] [INFO] [ocrmypdf._pipeline] skipping all processing on this page
+[2025-08-12 20:50:02,106] [INFO] [ocrmypdf._pipeline] skipping all processing on this page
+[2025-08-12 20:50:02,107] [INFO] [ocrmypdf._pipeline] skipping all processing on this page
+[2025-08-12 20:50:02,107] [INFO] [ocrmypdf._pipeline] skipping all processing on this page
+[2025-08-12 20:50:02,108] [INFO] [ocrmypdf._pipeline] skipping all processing on this page
+[2025-08-12 20:50:02,108] [INFO] [ocrmypdf._pipeline] skipping all processing on this page
+[2025-08-12 20:50:02,109] [INFO] [ocrmypdf._pipeline] skipping all processing on this page
+[2025-08-12 20:50:02,109] [INFO] [ocrmypdf._pipeline] skipping all processing on this page
+[2025-08-12 20:50:02,110] [INFO] [ocrmypdf._pipeline] skipping all processing on this page
+[2025-08-12 20:50:02,110] [INFO] [ocrmypdf._pipeline] skipping all processing on this page
+[2025-08-12 20:50:02,110] [INFO] [ocrmypdf._pipeline] skipping all processing on this page
+[2025-08-12 20:50:02,111] [INFO] [ocrmypdf._pipeline] skipping all processing on this page
+[2025-08-12 20:50:02,111] [INFO] [ocrmypdf._pipeline] skipping all processing on this page
+[2025-08-12 20:50:02,112] [INFO] [ocrmypdf._pipeline] skipping all processing on this page
+[2025-08-12 20:50:02,112] [INFO] [ocrmypdf._pipeline] skipping all processing on this page
+[2025-08-12 20:50:02,113] [INFO] [ocrmypdf._pipeline] skipping all processing on this page
+[2025-08-12 20:50:02,113] [INFO] [ocrmypdf._pipeline] skipping all processing on this page
+[2025-08-12 20:50:02,114] [INFO] [ocrmypdf._pipeline] skipping all processing on this page
+[2025-08-12 20:50:02,114] [INFO] [ocrmypdf._pipeline] skipping all processing on this page
+[2025-08-12 20:50:02,115] [INFO] [ocrmypdf._pipeline] skipping all processing on this page
+[2025-08-12 20:50:02,115] [INFO] [ocrmypdf._pipeline] skipping all processing on this page
+[2025-08-12 20:50:02,116] [INFO] [ocrmypdf._pipeline] skipping all processing on this page
+[2025-08-12 20:50:02,116] [INFO] [ocrmypdf._pipeline] skipping all processing on this page
+[2025-08-12 20:50:02,117] [INFO] [ocrmypdf._pipeline] skipping all processing on this page
+[2025-08-12 20:50:02,117] [INFO] [ocrmypdf._pipeline] skipping all processing on this page
+[2025-08-12 20:50:02,118] [INFO] [ocrmypdf._pipeline] skipping all processing on this page
+[2025-08-12 20:50:02,118] [INFO] [ocrmypdf._pipeline] skipping all processing on this page
+[2025-08-12 20:50:02,119] [INFO] [ocrmypdf._pipeline] skipping all processing on this page
+[2025-08-12 20:50:02,119] [INFO] [ocrmypdf._pipeline] skipping all processing on this page
+[2025-08-12 20:50:02,120] [INFO] [ocrmypdf._pipeline] skipping all processing on this page
+[2025-08-12 20:50:02,120] [INFO] [ocrmypdf._pipeline] skipping all processing on this page
+[2025-08-12 20:50:02,121] [INFO] [ocrmypdf._pipeline] skipping all processing on this page
+[2025-08-12 20:50:02,121] [INFO] [ocrmypdf._pipeline] skipping all processing on this page
+[2025-08-12 20:50:02,122] [INFO] [ocrmypdf._pipeline] skipping all processing on this page
+[2025-08-12 20:50:02,122] [INFO] [ocrmypdf._pipeline] skipping all processing on this page
+[2025-08-12 20:50:02,123] [INFO] [ocrmypdf._pipeline] skipping all processing on this page
+[2025-08-12 20:50:02,123] [INFO] [ocrmypdf._pipeline] skipping all processing on this page
+[2025-08-12 20:50:02,124] [INFO] [ocrmypdf._pipeline] skipping all processing on this page
+[2025-08-12 20:50:02,124] [INFO] [ocrmypdf._pipeline] skipping all processing on this page
+[2025-08-12 20:50:02,125] [INFO] [ocrmypdf._pipeline] skipping all processing on this page
+[2025-08-12 20:50:02,125] [INFO] [ocrmypdf._pipeline] skipping all processing on this page
+[2025-08-12 20:50:02,126] [INFO] [ocrmypdf._pipeline] skipping all processing on this page
+[2025-08-12 20:50:02,126] [INFO] [ocrmypdf._pipeline] skipping all processing on this page
+[2025-08-12 20:50:02,127] [INFO] [ocrmypdf._pipeline] skipping all processing on this page
+[2025-08-12 20:50:02,127] [INFO] [ocrmypdf._pipeline] skipping all processing on this page
+[2025-08-12 20:50:02,128] [INFO] [ocrmypdf._pipeline] skipping all processing on this page
+[2025-08-12 20:50:02,128] [INFO] [ocrmypdf._pipeline] skipping all processing on this page
+[2025-08-12 20:50:02,129] [INFO] [ocrmypdf._pipeline] skipping all processing on this page
+[2025-08-12 20:50:02,129] [INFO] [ocrmypdf._pipeline] skipping all processing on this page
+[2025-08-12 20:50:02,130] [INFO] [ocrmypdf._pipeline] skipping all processing on this page
+[2025-08-12 20:50:02,130] [INFO] [ocrmypdf._pipeline] skipping all processing on this page
+[2025-08-12 20:50:02,131] [INFO] [ocrmypdf._pipeline] skipping all processing on this page
+[2025-08-12 20:50:02,131] [INFO] [ocrmypdf._pipeline] skipping all processing on this page
+[2025-08-12 20:50:02,132] [INFO] [ocrmypdf._pipeline] skipping all processing on this page
+[2025-08-12 20:50:02,132] [INFO] [ocrmypdf._pipeline] skipping all processing on this page
+[2025-08-12 20:50:02,132] [INFO] [ocrmypdf._pipeline] skipping all processing on this page
+[2025-08-12 20:50:02,133] [INFO] [ocrmypdf._pipeline] skipping all processing on this page
+[2025-08-12 20:50:02,133] [INFO] [ocrmypdf._pipeline] skipping all processing on this page
+[2025-08-12 20:50:02,134] [INFO] [ocrmypdf._pipeline] skipping all processing on this page
+[2025-08-12 20:50:02,370] [INFO] [ocrmypdf._exec.tesseract] [tesseract] Too few characters. Skipping this page
+[2025-08-12 20:50:02,371] [INFO] [ocrmypdf._exec.tesseract] [tesseract] Too few characters. Skipping this page
+[2025-08-12 20:50:02,371] [ERROR] [ocrmypdf._exec.tesseract] [tesseract] Error during processing.
+[2025-08-12 20:50:02,371] [INFO] [ocrmypdf._pipeline] page is facing ⇧, confidence 0.00 - no change
+[2025-08-12 20:50:06,023] [INFO] [ocrmypdf._pipelines.ocr] Postprocessing...
+[2025-08-12 20:50:14,199] [INFO] [ocrmypdf.optimize] Image optimization did not improve the file - optimizations will not be used
+[2025-08-12 20:50:15,410] [INFO] [ocrmypdf._pipeline] Image optimization ratio: 0.94 savings: -6.3%
+[2025-08-12 20:50:15,410] [INFO] [ocrmypdf._pipeline] Total file size ratio: 0.79 savings: -26.4%
+[2025-08-12 20:50:15,440] [WARNING] [ocrmypdf._pipelines._common] Output file is a valid PDF, but conversion to PDF/A did not succeed (issue: No PDF/A metadata in XMP)
+[2025-08-12 20:50:15,449] [DEBUG] [paperless.parsing.tesseract] Incomplete sidecar file: discarding.
+[2025-08-12 20:50:23,416] [INFO] [paperless.parsing.tesseract] pdftotext exited 0
+[2025-08-12 20:50:23,492] [DEBUG] [paperless.consumer] Generating thumbnail for Bangkok Naked Now and Then (Jack Diamond) (Z-Library).pdf...
+[2025-08-12 20:50:23,497] [DEBUG] [paperless.parsing] Execute: convert -density 300 -scale 500x5000> -alpha remove -strip -auto-orient -define pdf:use-cropbox=true /tmp/paperless/paperless-9zprc6t5/archive.pdf[0] /tmp/paperless/paperless-9zprc6t5/convert.webp
+[2025-08-12 20:50:24,698] [INFO] [paperless.parsing] convert exited 0
+[2025-08-12 20:50:26,994] [DEBUG] [paperless.classifier] Document classification model does not exist (yet), not performing automatic matching.
+[2025-08-12 20:50:27,001] [DEBUG] [paperless.consumer] Saving record to database
+[2025-08-12 20:50:27,001] [DEBUG] [paperless.consumer] Creation date from parse_date: 1980-02-01 00:00:00+07:00
+[2025-08-12 20:50:28,082] [DEBUG] [paperless.consumer] Deleting file /tmp/paperless/paperless-ngxhq9v3dou/Bangkok Naked Now and Then (Jack Diamond) (Z-Library).pdf
+[2025-08-12 20:50:28,093] [DEBUG] [paperless.parsing.tesseract] Deleting directory /tmp/paperless/paperless-9zprc6t5
+[2025-08-12 20:50:28,094] [INFO] [paperless.consumer] Document 1980-02-01 Bangkok Naked Now and Then (Jack Diamond) (Z-Library) consumption finished
+[2025-08-12 20:50:28,103] [INFO] [paperless.tasks] ConsumeTaskPlugin completed with: Success. New document id 3 created
+[2025-08-12 20:53:47,579] [DEBUG] [paperless.classifier] Document classification model does not exist (yet), not performing automatic matching.
+[2025-08-12 20:54:43,838] [INFO] [_granian.asgi.io] ASGI transport error: SendError { .. }
+[2025-08-12 20:54:43,838] [INFO] [_granian.asgi.io] ASGI transport error: SendError { .. }
+[2025-08-12 20:54:44,696] [INFO] [_granian.asgi.io] ASGI transport error: SendError { .. }
+[2025-08-12 20:54:44,696] [INFO] [_granian.asgi.io] ASGI transport error: SendError { .. }
+[2025-08-12 20:55:23,387] [DEBUG] [paperless.handlers] Deleted file /usr/src/paperless/media/documents/archive/0000003.pdf.
+[2025-08-12 20:55:23,387] [DEBUG] [paperless.handlers] Deleted file /usr/src/paperless/media/documents/thumbnails/0000003.webp.
+[2025-08-12 20:55:23,388] [DEBUG] [paperless.handlers] Deleted file /usr/src/paperless/media/documents/originals/0000003.pdf.
+[2025-08-12 20:55:23,398] [INFO] [paperless.tasks] Deleted 1 documents from trash
+[2025-08-12 20:55:34,299] [DEBUG] [paperless.classifier] Document classification model does not exist (yet), not performing automatic matching.
+[2025-08-12 20:58:19,828] [DEBUG] [paperless.tasks] Executing plugin ConsumerPreflightPlugin
+[2025-08-12 20:58:19,837] [INFO] [paperless.tasks] ConsumerPreflightPlugin completed with no message
+[2025-08-12 20:58:19,837] [DEBUG] [paperless.tasks] Skipping plugin CollatePlugin
+[2025-08-12 20:58:19,839] [DEBUG] [paperless.tasks] Skipping plugin BarcodePlugin
+[2025-08-12 20:58:19,839] [DEBUG] [paperless.tasks] Executing plugin WorkflowTriggerPlugin
+[2025-08-12 20:58:19,841] [INFO] [paperless.tasks] WorkflowTriggerPlugin completed with: 
+[2025-08-12 20:58:19,842] [DEBUG] [paperless.tasks] Executing plugin ConsumeTaskPlugin
+[2025-08-12 20:58:19,842] [INFO] [paperless.consumer] Consuming Azril.png
+[2025-08-12 20:58:19,843] [DEBUG] [paperless.consumer] Detected mime type: image/png
+[2025-08-12 20:58:19,848] [DEBUG] [paperless.consumer] Parser: RasterisedDocumentParser
+[2025-08-12 20:58:19,851] [DEBUG] [paperless.consumer] Parsing Azril.png...
+[2025-08-12 20:58:20,098] [DEBUG] [paperless.parsing.tesseract] Estimated DPI 48 based on image width 400
+[2025-08-12 20:58:20,098] [INFO] [paperless.parsing.tesseract] Removing alpha layer from /tmp/paperless/paperless-ngx9eif5v1h/Azril.png for compatibility with img2pdf
+[2025-08-12 20:58:20,137] [INFO] [paperless.parsing.tesseract] convert exited 0
+[2025-08-12 20:58:20,137] [DEBUG] [paperless.parsing.tesseract] Detected DPI for image /tmp/paperless/paperless-ngx9eif5v1h/Azril.png: 72
+[2025-08-12 20:58:20,137] [DEBUG] [paperless.parsing.tesseract] Calling OCRmyPDF with args: {'input_file': PosixPath('/tmp/paperless/paperless-5mj28j5z/image-no-alpha'), 'output_file': PosixPath('/tmp/paperless/paperless-5mj28j5z/archive.pdf'), 'use_threads': True, 'jobs': 2, 'language': 'eng', 'output_type': 'pdfa', 'progress_bar': False, 'color_conversion_strategy': 'RGB', 'skip_text': True, 'clean': True, 'deskew': True, 'rotate_pages': True, 'rotate_pages_threshold': 12.0, 'sidecar': PosixPath('/tmp/paperless/paperless-5mj28j5z/sidecar.txt'), 'image_dpi': 72}
+[2025-08-12 20:58:20,270] [INFO] [ocrmypdf._pipeline] Input file is not a PDF, checking if it is an image...
+[2025-08-12 20:58:20,271] [INFO] [ocrmypdf._pipeline] Input file is an image
+[2025-08-12 20:58:20,271] [INFO] [ocrmypdf._pipeline] Input image has no ICC profile, assuming sRGB
+[2025-08-12 20:58:20,271] [INFO] [ocrmypdf._pipeline] Image seems valid. Try converting to PDF...
+[2025-08-12 20:58:20,277] [INFO] [ocrmypdf._pipeline] Successfully converted to PDF, processing...
+[2025-08-12 20:58:20,438] [INFO] [ocrmypdf._exec.tesseract] [tesseract] Too few characters. Skipping this page
+[2025-08-12 20:58:20,438] [INFO] [ocrmypdf._exec.tesseract] [tesseract] Too few characters. Skipping this page
+[2025-08-12 20:58:20,438] [ERROR] [ocrmypdf._exec.tesseract] [tesseract] Error during processing.
+[2025-08-12 20:58:20,438] [INFO] [ocrmypdf._pipeline] page is facing ⇧, confidence 0.00 - no change
+[2025-08-12 20:58:21,162] [INFO] [ocrmypdf._pipelines.ocr] Postprocessing...
+[2025-08-12 20:58:21,300] [INFO] [ocrmypdf._pipeline] Image optimization ratio: 1.08 savings: 7.2%
+[2025-08-12 20:58:21,300] [INFO] [ocrmypdf._pipeline] Total file size ratio: 6.52 savings: 84.7%
+[2025-08-12 20:58:21,302] [INFO] [ocrmypdf._pipelines._common] Output file is a PDF/A-2B (as expected)
+[2025-08-12 20:58:21,317] [DEBUG] [paperless.parsing.tesseract] Using text from sidecar file
+[2025-08-12 20:58:21,317] [WARNING] [paperless.parsing.tesseract] Encountered an error while running OCR: No text was found in the original document. Attempting force OCR to get the text.
+[2025-08-12 20:58:21,317] [DEBUG] [paperless.parsing.tesseract] Estimated DPI 48 based on image width 400
+[2025-08-12 20:58:21,318] [INFO] [paperless.parsing.tesseract] Removing alpha layer from /tmp/paperless/paperless-ngx9eif5v1h/Azril.png for compatibility with img2pdf
+[2025-08-12 20:58:21,356] [INFO] [paperless.parsing.tesseract] convert exited 0
+[2025-08-12 20:58:21,356] [DEBUG] [paperless.parsing.tesseract] Detected DPI for image /tmp/paperless/paperless-ngx9eif5v1h/Azril.png: 72
+[2025-08-12 20:58:21,356] [DEBUG] [paperless.parsing.tesseract] Fallback: Calling OCRmyPDF with args: {'input_file': PosixPath('/tmp/paperless/paperless-5mj28j5z/image-no-alpha'), 'output_file': PosixPath('/tmp/paperless/paperless-5mj28j5z/archive-fallback.pdf'), 'use_threads': True, 'jobs': 2, 'language': 'eng', 'output_type': 'pdfa', 'progress_bar': False, 'color_conversion_strategy': 'RGB', 'force_ocr': True, 'clean': True, 'deskew': True, 'rotate_pages': True, 'rotate_pages_threshold': 12.0, 'sidecar': PosixPath('/tmp/paperless/paperless-5mj28j5z/sidecar-fallback.txt'), 'image_dpi': 72}
+[2025-08-12 20:58:21,468] [INFO] [ocrmypdf._pipeline] Input file is not a PDF, checking if it is an image...
+[2025-08-12 20:58:21,468] [INFO] [ocrmypdf._pipeline] Input file is an image
+[2025-08-12 20:58:21,468] [INFO] [ocrmypdf._pipeline] Input image has no ICC profile, assuming sRGB
+[2025-08-12 20:58:21,469] [INFO] [ocrmypdf._pipeline] Image seems valid. Try converting to PDF...
+[2025-08-12 20:58:21,473] [INFO] [ocrmypdf._pipeline] Successfully converted to PDF, processing...
+[2025-08-12 20:58:21,643] [INFO] [ocrmypdf._exec.tesseract] [tesseract] Too few characters. Skipping this page
+[2025-08-12 20:58:21,643] [INFO] [ocrmypdf._exec.tesseract] [tesseract] Too few characters. Skipping this page
+[2025-08-12 20:58:21,643] [ERROR] [ocrmypdf._exec.tesseract] [tesseract] Error during processing.
+[2025-08-12 20:58:21,644] [INFO] [ocrmypdf._pipeline] page is facing ⇧, confidence 0.00 - no change
+[2025-08-12 20:58:22,345] [INFO] [ocrmypdf._pipelines.ocr] Postprocessing...
+[2025-08-12 20:58:22,475] [INFO] [ocrmypdf._pipeline] Image optimization ratio: 1.08 savings: 7.2%
+[2025-08-12 20:58:22,475] [INFO] [ocrmypdf._pipeline] Total file size ratio: 6.52 savings: 84.7%
+[2025-08-12 20:58:22,476] [INFO] [ocrmypdf._pipelines._common] Output file is a PDF/A-2B (as expected)
+[2025-08-12 20:58:22,487] [DEBUG] [paperless.parsing.tesseract] Using text from sidecar file
+[2025-08-12 20:58:22,487] [WARNING] [paperless.parsing.tesseract] No text was found in /tmp/paperless/paperless-ngx9eif5v1h/Azril.png, the content will be empty.
+[2025-08-12 20:58:22,487] [DEBUG] [paperless.consumer] Generating thumbnail for Azril.png...
+[2025-08-12 20:58:22,490] [DEBUG] [paperless.parsing] Execute: convert -density 300 -scale 500x5000> -alpha remove -strip -auto-orient -define pdf:use-cropbox=true /tmp/paperless/paperless-5mj28j5z/archive.pdf[0] /tmp/paperless/paperless-5mj28j5z/convert.webp
+[2025-08-12 20:58:22,855] [INFO] [paperless.parsing] convert exited 0
+[2025-08-12 20:58:22,859] [DEBUG] [paperless.classifier] Document classification model does not exist (yet), not performing automatic matching.
+[2025-08-12 20:58:22,861] [DEBUG] [paperless.consumer] Saving record to database
+[2025-08-12 20:58:22,862] [DEBUG] [paperless.consumer] Creation date from st_mtime: 2025-08-12 20:58:19+07:00
+[2025-08-12 20:58:22,949] [DEBUG] [paperless.consumer] Deleting file /tmp/paperless/paperless-ngx9eif5v1h/Azril.png
+[2025-08-12 20:58:22,960] [DEBUG] [paperless.parsing.tesseract] Deleting directory /tmp/paperless/paperless-5mj28j5z
+[2025-08-12 20:58:22,961] [INFO] [paperless.consumer] Document 2025-08-12 Azril consumption finished
+[2025-08-12 20:58:22,964] [INFO] [paperless.tasks] ConsumeTaskPlugin completed with: Success. New document id 4 created
+[2025-08-12 20:58:33,924] [DEBUG] [paperless.classifier] Document classification model does not exist (yet), not performing automatic matching.
+[2025-08-12 20:58:44,769] [DEBUG] [paperless.classifier] Document classification model does not exist (yet), not performing automatic matching.
+[2025-08-12 21:00:00,130] [INFO] [_granian.asgi.io] ASGI transport error: SendError { .. }
+[2025-08-12 21:00:00,131] [INFO] [_granian.asgi.io] ASGI transport error: SendError { .. }
+[2025-08-12 21:00:00,514] [INFO] [_granian.asgi.io] ASGI transport error: SendError { .. }
+[2025-08-12 21:00:00,516] [INFO] [_granian.asgi.io] ASGI transport error: SendError { .. }
+[2025-08-12 21:00:00,589] [INFO] [_granian.asgi.io] ASGI transport error: SendError { .. }
+[2025-08-12 21:00:00,590] [INFO] [_granian.asgi.io] ASGI transport error: SendError { .. }
+[2025-08-12 21:01:45,596] [DEBUG] [paperless.classifier] Document classification model does not exist (yet), not performing automatic matching.
+[2025-08-12 21:04:24,071] [DEBUG] [paperless.classifier] Document classification model does not exist (yet), not performing automatic matching.
+[2025-08-12 21:05:00,070] [DEBUG] [paperless.classifier] Document classification model does not exist (yet), not performing automatic matching.
+[2025-08-12 21:05:00,081] [DEBUG] [paperless.classifier] Gathering data from database...
+[2025-08-12 21:05:00,102] [DEBUG] [paperless.classifier] 2 documents, 1 tag(s), 0 correspondent(s), 0 document type(s). 0 storage path(s)
+[2025-08-12 21:05:03,384] [DEBUG] [paperless.classifier] Vectorizing data...
+[2025-08-12 21:05:04,701] [DEBUG] [paperless.classifier] Training tags classifier...
+[2025-08-12 21:05:05,297] [DEBUG] [paperless.classifier] There are no correspondents. Not training correspondent classifier.
+[2025-08-12 21:05:05,297] [DEBUG] [paperless.classifier] There are no document types. Not training document type classifier.
+[2025-08-12 21:05:05,297] [DEBUG] [paperless.classifier] There are no storage paths. Not training storage path classifier.
+[2025-08-12 21:05:05,303] [INFO] [paperless.tasks] Saving updated classifier model to /usr/src/paperless/data/classification_model.pickle...
+[2025-08-12 21:18:22,941] [INFO] [paperless.matching] Document matched WorkflowTrigger 1 from Workflow: Publication
+[2025-08-12 21:18:22,942] [INFO] [paperless.handlers] Applying WorkflowAction 1 from Workflow: Publication
+[2025-08-12 21:18:56,330] [INFO] [paperless.matching] Document did not match Workflow: Publication
+[2025-08-12 21:18:56,330] [DEBUG] [paperless.matching] ('Document doc type None does not match Publication',)
+[2025-08-12 21:19:30,356] [INFO] [paperless.matching] Document did not match Workflow: Publication
+[2025-08-12 21:19:30,357] [DEBUG] [paperless.matching] ('Document doc type None does not match Publication',)
+[2025-08-12 21:19:34,634] [INFO] [paperless.matching] Document did not match Workflow: Publication
+[2025-08-12 21:19:34,635] [DEBUG] [paperless.matching] ('Document doc type Book does not match Publication',)
