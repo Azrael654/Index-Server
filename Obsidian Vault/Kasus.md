@@ -1,0 +1,1 @@
+1. jika client bisa masuk ke ke wp-admin tapi bkn sebagai admin melainkan sebagai subscriber atau role yang lain, maka untuk problem solving nya coba buka phpmyadmin di cpanel kemuadian ke prefix_usermeta lalu samakan meta key yg harus sama seperti prefix.
