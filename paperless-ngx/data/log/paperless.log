@@ -768,3 +768,40 @@
 [2025-08-13 08:27:34,373] [DEBUG] [paperless.classifier] Gathering data from database...
 [2025-08-13 08:27:34,475] [INFO] [paperless.classifier] No updates since last training
 [2025-08-13 08:27:34,478] [DEBUG] [paperless.tasks] Training data unchanged.
+[2025-08-13 09:05:03,148] [DEBUG] [paperless.classifier] Gathering data from database...
+[2025-08-13 09:05:03,162] [INFO] [paperless.classifier] No updates since last training
+[2025-08-13 09:05:03,165] [DEBUG] [paperless.tasks] Training data unchanged.
+[2025-08-13 10:05:02,515] [DEBUG] [paperless.classifier] Gathering data from database...
+[2025-08-13 10:05:02,530] [INFO] [paperless.classifier] No updates since last training
+[2025-08-13 10:05:02,533] [DEBUG] [paperless.tasks] Training data unchanged.
+[2025-08-13 11:05:02,582] [DEBUG] [paperless.classifier] Gathering data from database...
+[2025-08-13 11:05:02,597] [INFO] [paperless.classifier] No updates since last training
+[2025-08-13 11:05:02,599] [DEBUG] [paperless.tasks] Training data unchanged.
+[2025-08-13 12:05:02,086] [DEBUG] [paperless.classifier] Gathering data from database...
+[2025-08-13 12:05:02,103] [INFO] [paperless.classifier] No updates since last training
+[2025-08-13 12:05:02,105] [DEBUG] [paperless.tasks] Training data unchanged.
+[2025-08-13 12:47:13,281] [DEBUG] [paperless.tasks] Executing plugin ConsumerPreflightPlugin
+[2025-08-13 12:47:13,299] [INFO] [paperless.tasks] ConsumerPreflightPlugin completed with no message
+[2025-08-13 12:47:13,300] [DEBUG] [paperless.tasks] Skipping plugin CollatePlugin
+[2025-08-13 12:47:13,305] [DEBUG] [paperless.tasks] Skipping plugin BarcodePlugin
+[2025-08-13 12:47:13,306] [DEBUG] [paperless.tasks] Executing plugin WorkflowTriggerPlugin
+[2025-08-13 12:47:13,311] [INFO] [paperless.tasks] WorkflowTriggerPlugin completed with: 
+[2025-08-13 12:47:13,312] [DEBUG] [paperless.tasks] Executing plugin ConsumeTaskPlugin
+[2025-08-13 12:47:13,312] [INFO] [paperless.consumer] Consuming AUDIT PPI - Ruangan.docx
+[2025-08-13 12:47:13,315] [DEBUG] [paperless.consumer] Detected mime type: application/vnd.openxmlformats-officedocument.wordprocessingml.document
+[2025-08-13 12:47:13,321] [DEBUG] [paperless.consumer] Parser: TikaDocumentParser
+[2025-08-13 12:47:13,327] [DEBUG] [paperless.consumer] Parsing AUDIT PPI - Ruangan.docx...
+[2025-08-13 12:47:13,327] [INFO] [paperless.parsing.tika] Sending /tmp/paperless/paperless-ngxfa7q3xs1/AUDIT PPI - Ruangan.docx to Tika server
+[2025-08-13 12:47:16,052] [INFO] [paperless.parsing.tika] Converting /tmp/paperless/paperless-ngxfa7q3xs1/AUDIT PPI - Ruangan.docx to PDF as /tmp/paperless/paperless-f63w0n9f/convert.pdf
+[2025-08-13 12:47:39,895] [DEBUG] [paperless.consumer] Generating thumbnail for AUDIT PPI - Ruangan.docx...
+[2025-08-13 12:47:39,903] [DEBUG] [paperless.parsing] Execute: convert -density 300 -scale 500x5000> -alpha remove -strip -auto-orient -define pdf:use-cropbox=true /tmp/paperless/paperless-f63w0n9f/convert.pdf[0] /tmp/paperless/paperless-f63w0n9f/convert.webp
+[2025-08-13 12:47:44,147] [INFO] [paperless.parsing] convert exited 0
+[2025-08-13 12:47:46,241] [DEBUG] [paperless.consumer] Saving record to database
+[2025-08-13 12:47:46,242] [DEBUG] [paperless.consumer] Creation date from parse_date: 2019-04-20 11:09:00+00:00
+[2025-08-13 12:47:48,556] [INFO] [paperless.handlers] Assigning document type Book to 2019-04-20T11:09:00+00:00 AUDIT PPI - Ruangan
+[2025-08-13 12:47:48,689] [DEBUG] [paperless.consumer] Deleting file /tmp/paperless/paperless-ngxfa7q3xs1/AUDIT PPI - Ruangan.docx
+[2025-08-13 12:47:48,692] [DEBUG] [paperless.parsing.tika] Deleting directory /tmp/paperless/paperless-f63w0n9f
+[2025-08-13 12:47:48,693] [INFO] [paperless.consumer] Document 2019-04-20 AUDIT PPI - Ruangan consumption finished
+[2025-08-13 12:47:48,697] [INFO] [paperless.tasks] ConsumeTaskPlugin completed with: Success. New document id 5 created
+[2025-08-13 12:50:24,293] [INFO] [paperless.matching] Document did not match Workflow: Publication
+[2025-08-13 12:50:24,293] [DEBUG] [paperless.matching] ('Document doc type Document RSAM does not match Publication',)
