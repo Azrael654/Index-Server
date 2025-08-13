@@ -733,3 +733,38 @@
 [2025-08-12 21:19:30,357] [DEBUG] [paperless.matching] ('Document doc type None does not match Publication',)
 [2025-08-12 21:19:34,634] [INFO] [paperless.matching] Document did not match Workflow: Publication
 [2025-08-12 21:19:34,635] [DEBUG] [paperless.matching] ('Document doc type Book does not match Publication',)
+[2025-08-12 22:05:01,990] [DEBUG] [paperless.classifier] Gathering data from database...
+[2025-08-12 22:05:02,004] [DEBUG] [paperless.classifier] 2 documents, 1 tag(s), 0 correspondent(s), 2 document type(s). 0 storage path(s)
+[2025-08-12 22:05:02,004] [DEBUG] [paperless.classifier] Vectorizing data...
+[2025-08-12 22:05:03,214] [DEBUG] [paperless.classifier] Training tags classifier...
+[2025-08-12 22:05:03,805] [DEBUG] [paperless.classifier] There are no correspondents. Not training correspondent classifier.
+[2025-08-12 22:05:03,806] [DEBUG] [paperless.classifier] Training document type classifier...
+[2025-08-12 22:05:04,301] [DEBUG] [paperless.classifier] There are no storage paths. Not training storage path classifier.
+[2025-08-12 22:05:04,306] [INFO] [paperless.tasks] Saving updated classifier model to /usr/src/paperless/data/classification_model.pickle...
+[2025-08-12 22:06:50,477] [INFO] [_granian.asgi.io] ASGI transport error: SendError { .. }
+[2025-08-12 22:06:50,478] [INFO] [_granian.asgi.io] ASGI transport error: SendError { .. }
+[2025-08-12 22:27:09,527] [INFO] [_granian.asgi.io] ASGI transport error: SendError { .. }
+[2025-08-12 22:27:09,528] [INFO] [_granian.asgi.io] ASGI transport error: SendError { .. }
+[2025-08-12 22:27:10,274] [INFO] [_granian.asgi.io] ASGI transport error: SendError { .. }
+[2025-08-12 22:27:10,274] [INFO] [_granian.asgi.io] ASGI transport error: SendError { .. }
+[2025-08-12 23:05:02,382] [DEBUG] [paperless.classifier] Gathering data from database...
+[2025-08-12 23:05:02,402] [INFO] [paperless.classifier] No updates since last training
+[2025-08-12 23:05:02,404] [DEBUG] [paperless.tasks] Training data unchanged.
+[2025-08-13 00:05:02,476] [DEBUG] [paperless.classifier] Gathering data from database...
+[2025-08-13 00:05:02,495] [INFO] [paperless.classifier] No updates since last training
+[2025-08-13 00:05:02,499] [DEBUG] [paperless.tasks] Training data unchanged.
+[2025-08-13 01:00:00,041] [INFO] [paperless.tasks] Emptying trash of all expired documents
+[2025-08-13 01:00:00,045] [INFO] [paperless.tasks] Deleted 0 documents from trash
+[2025-08-13 01:05:02,918] [DEBUG] [paperless.classifier] Gathering data from database...
+[2025-08-13 01:05:02,935] [INFO] [paperless.classifier] No updates since last training
+[2025-08-13 01:05:02,937] [DEBUG] [paperless.tasks] Training data unchanged.
+[2025-08-13 02:05:02,040] [DEBUG] [paperless.classifier] Gathering data from database...
+[2025-08-13 02:05:02,053] [INFO] [paperless.classifier] No updates since last training
+[2025-08-13 02:05:02,056] [DEBUG] [paperless.tasks] Training data unchanged.
+[2025-08-13 08:27:16,207] [INFO] [paperless.management.consumer] Using inotify to watch directory for changes: /usr/src/paperless/consume
+[2025-08-13 08:27:16,843] [INFO] [paperless.asgi] [init] Paperless-ngx version: v2.17.1
+[2025-08-13 08:27:16,847] [INFO] [_granian.asgi.serve] Started worker-1
+[2025-08-13 08:27:16,848] [INFO] [_granian.asgi.serve] Started worker-1 runtime-1
+[2025-08-13 08:27:34,373] [DEBUG] [paperless.classifier] Gathering data from database...
+[2025-08-13 08:27:34,475] [INFO] [paperless.classifier] No updates since last training
+[2025-08-13 08:27:34,478] [DEBUG] [paperless.tasks] Training data unchanged.
