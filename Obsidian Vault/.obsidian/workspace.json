@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Kamus Port.md",
+                "file": "Catatan apa aja.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Kamus Port"
+              "title": "Catatan apa aja"
             }
           }
         ]
@@ -178,13 +178,13 @@
   },
   "active": "d4c979b9929eecc9",
   "lastOpenFiles": [
+    "Kamus Port.md",
     "Install cPanel.md",
     "Glosarium.md",
     "first file.md",
     "Perintah Linux.md",
     "Kumpulan Link.md",
     "Kasus.md",
-    "Kamus Port.md",
     "cPanel.md",
     "Catatan apa aja.md"
   ]
